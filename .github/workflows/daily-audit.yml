@@ -154,7 +154,7 @@ jobs:
 
                   gp_players = [
                       p for p in stats
-                      if int(p.get("gp") or 0) == 1
+                      if float(p.get("gp") or 0) == 1.0
                   ]
 
                   if not gp_players:
