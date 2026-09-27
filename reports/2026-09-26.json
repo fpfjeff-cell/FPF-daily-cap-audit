@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-26",
+  "status": "incomplete",
+  "games_identified": 12,
+  "games_audited": 0,
+  "games": [],
+  "unverified": [
+    {
+      "match_id": 47424,
+      "home": "Balls & Dolls",
+      "visitor": "Flagmingos",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47425,
+      "home": "La caisse de 12 en rabais",
+      "visitor": "Les Blue Balls",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47423,
+      "home": "Bleue Dry",
+      "visitor": "Alessia's",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47427,
+      "home": "Voodoo",
+      "visitor": "Team Sexy",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47426,
+      "home": "Jamaican Bobsled Team",
+      "visitor": "Purple Cobras",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47428,
+      "home": "EZW",
+      "visitor": "Hard 10",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47430,
+      "home": "Tops\u2019n Tops",
+      "visitor": "Still an Inch Short",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47431,
+      "home": "Practice Squad IV",
+      "visitor": "Aladeen FC",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47429,
+      "home": "Activated",
+      "visitor": "Air Buds",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47432,
+      "home": "The Penetrators",
+      "visitor": "Trapstars",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47433,
+      "home": "Friends and Family",
+      "visitor": "Trailer Park Boys",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    },
+    {
+      "match_id": 47434,
+      "home": "Chapeau Perdu",
+      "visitor": "Bloodline",
+      "error": "invalid literal for int() with base 10: '1.000'"
+    }
+  ],
+  "generated_at": "2026-09-27T10:40:04.127532-04:00"
+}
