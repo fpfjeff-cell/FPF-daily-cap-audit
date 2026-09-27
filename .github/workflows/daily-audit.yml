@@ -1,0 +1,219 @@
+name: FPF Daily Cap Audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      audit_date:
+        description: "Date to audit (YYYY-MM-DD). Leave blank for yesterday."
+        required: false
+        type: string
+  schedule:
+    - cron: "30 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run FPF audit collector
+        env:
+          AUDIT_DATE: ${{ inputs.audit_date }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import urllib.request
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+
+          TZ = ZoneInfo("America/Toronto")
+          requested = os.environ.get("AUDIT_DATE", "").strip()
+
+          if requested:
+              audit_date = requested
+          else:
+              audit_date = (datetime.now(TZ).date() - timedelta(days=1)).isoformat()
+
+          print(f"FPF AUDIT DATE: {audit_date}")
+
+          CALENDAR_URL = "https://flagplusfootball.com/api/v1/matches/search"
+          STATS_URL = "https://flagplusfootball.com/api/v1/match-stats"
+
+          def request_json(url, method="GET", payload=None):
+              data = None
+              headers = {
+                  "Accept": "application/json",
+                  "User-Agent": "FPF-Daily-Cap-Audit/1.0",
+              }
+
+              if payload is not None:
+                  data = json.dumps(payload).encode("utf-8")
+                  headers["Content-Type"] = "application/json"
+
+              req = urllib.request.Request(
+                  url,
+                  data=data,
+                  headers=headers,
+                  method=method,
+              )
+
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return json.loads(response.read().decode("utf-8"))
+
+          # Current Fall 2026 FPF season code.
+          # The collector deliberately marks the report INCOMPLETE if the
+          # calendar or any game's GP data cannot be verified.
+          payload = {
+              "scopes": [
+                  {
+                      "name": "matchByDateCalendar",
+                      "parameters": [audit_date, 1, "A26"]
+                  }
+              ],
+              "includes": [
+                  {"relation": "setupTeamHome.team"},
+                  {"relation": "setupTeamVisitor.team"},
+                  {"relation": "fieldLocation"}
+              ]
+          }
+
+          report = {
+              "date": audit_date,
+              "status": "incomplete",
+              "games_identified": 0,
+              "games_audited": 0,
+              "games": [],
+              "unverified": [],
+              "generated_at": datetime.now(TZ).isoformat(),
+          }
+
+          try:
+              calendar = request_json(
+                  CALENDAR_URL,
+                  method="POST",
+                  payload=payload
+              )
+              games = calendar.get("data", [])
+
+          except Exception as exc:
+              report["unverified"].append({
+                  "stage": "calendar",
+                  "error": str(exc)
+              })
+              games = []
+
+          # Only games that appear to have been played/completed.
+          completed = []
+
+          for game in games:
+              home_score = game.get("score_home")
+              away_score = game.get("score_visitor")
+
+              if home_score is not None and away_score is not None:
+                  completed.append(game)
+
+          report["games_identified"] = len(completed)
+
+          if not completed and not report["unverified"]:
+              report["status"] = "no_games"
+
+          for game in completed:
+              match_id = game.get("id")
+
+              home = (
+                  game.get("setup_team_home", {})
+                      .get("team", {})
+                      .get("name", "Unknown")
+              )
+
+              away = (
+                  game.get("setup_team_visitor", {})
+                      .get("team", {})
+                      .get("name", "Unknown")
+              )
+
+              try:
+                  stats = request_json(
+                      f"{STATS_URL}?match_id={match_id}&gp=1&stats=0"
+                  )
+
+                  if not isinstance(stats, list) or not stats:
+                      raise RuntimeError("No GP player data returned")
+
+                  gp_players = [
+                      p for p in stats
+                      if int(p.get("gp") or 0) == 1
+                  ]
+
+                  if not gp_players:
+                      raise RuntimeError("No GP-credited players returned")
+
+                  report["games"].append({
+                      "match_id": match_id,
+                      "home": home,
+                      "visitor": away,
+                      "setup_division_id": game.get("setup_division_id"),
+                      "players": gp_players,
+                  })
+
+                  report["games_audited"] += 1
+
+              except Exception as exc:
+                  report["unverified"].append({
+                      "match_id": match_id,
+                      "home": home,
+                      "visitor": away,
+                      "error": str(exc),
+                  })
+
+          if completed:
+              if (
+                  report["games_audited"] == report["games_identified"]
+                  and not report["unverified"]
+              ):
+                  # This means collection is complete. Cap calculations will
+                  # only be declared complete once division/cap mapping is
+                  # positively identified.
+                  report["status"] = "collected"
+
+          Path("reports").mkdir(exist_ok=True)
+
+          dated = Path("reports") / f"{audit_date}.json"
+          latest = Path("reports") / "latest.json"
+
+          text = json.dumps(report, indent=2)
+
+          dated.write_text(text, encoding="utf-8")
+          latest.write_text(text, encoding="utf-8")
+
+          print(
+              f"STATUS={report['status']} "
+              f"GAMES={report['games_identified']} "
+              f"COLLECTED={report['games_audited']}"
+          )
+
+          if report["unverified"]:
+              print("INCOMPLETE DATA:")
+              for item in report["unverified"]:
+                  print(item)
+          PY
+
+      - name: Save audit report
+        run: |
+          git config user.name "FPF Audit Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/
+          git diff --cached --quiet || git commit -m "FPF audit report"
+          git push
