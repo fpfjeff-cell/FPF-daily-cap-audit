@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run FPF audit collector
+      - name: Run complete FPF cap audit
         env:
           AUDIT_DATE: ${{ inputs.audit_date }}
         run: |
@@ -39,54 +39,90 @@ jobs:
           from pathlib import Path
 
           TZ = ZoneInfo("America/Toronto")
+
           requested = os.environ.get("AUDIT_DATE", "").strip()
 
           if requested:
               audit_date = requested
           else:
-              audit_date = (datetime.now(TZ).date() - timedelta(days=1)).isoformat()
+              audit_date = (
+                  datetime.now(TZ).date() - timedelta(days=1)
+              ).isoformat()
 
-          print(f"FPF AUDIT DATE: {audit_date}")
+          CALENDAR_URL = (
+              "https://flagplusfootball.com/api/v1/matches/search"
+          )
 
-          CALENDAR_URL = "https://flagplusfootball.com/api/v1/matches/search"
-          STATS_URL = "https://flagplusfootball.com/api/v1/match-stats"
+          STATS_URL = (
+              "https://flagplusfootball.com/api/v1/match-stats"
+          )
+
+          # setup_division_id:
+          # (division name, players counted, team cap, QB cap)
+
+          CAPS = {
+              927: ("Tier 1", 6, 600, 100),
+              928: ("Tier 2", 6, 510, 90),
+              929: ("Tier 3", 6, 470, 80),
+              930: ("Tier 4", 6, 425, 72),
+              931: ("Tier 5", 6, 380, 65),
+
+              932: ("Women's 1", 5, 500, 100),
+              933: ("Women's 2", 5, 370, 70),
+
+              934: ("Co-Ed 1", 6, 490, 100),
+              935: ("Co-Ed 2", 6, 460, 85),
+              936: ("Co-Ed 3", 6, 430, 75),
+              937: ("Co-Ed 4", 6, 380, 65),
+
+              938: ("Competitive", 5, 500, 100),
+              939: ("Intermediate", 5, 410, 82),
+              940: ("Co-Ed 5v5", 5, 425, 100),
+          }
 
           def request_json(url, method="GET", payload=None):
               data = None
+
               headers = {
                   "Accept": "application/json",
-                  "User-Agent": "FPF-Daily-Cap-Audit/1.0",
+                  "User-Agent": "FPF-Daily-Cap-Audit/2.0",
               }
 
               if payload is not None:
                   data = json.dumps(payload).encode("utf-8")
                   headers["Content-Type"] = "application/json"
 
-              req = urllib.request.Request(
+              request = urllib.request.Request(
                   url,
                   data=data,
                   headers=headers,
                   method=method,
               )
 
-              with urllib.request.urlopen(req, timeout=30) as response:
-                  return json.loads(response.read().decode("utf-8"))
+              with urllib.request.urlopen(
+                  request,
+                  timeout=30,
+              ) as response:
+                  return json.loads(
+                      response.read().decode("utf-8")
+                  )
 
-          # Current Fall 2026 FPF season code.
-          # The collector deliberately marks the report INCOMPLETE if the
-          # calendar or any game's GP data cannot be verified.
           payload = {
               "scopes": [
                   {
                       "name": "matchByDateCalendar",
-                      "parameters": [audit_date, 1, "A26"]
+                      "parameters": [
+                          audit_date,
+                          1,
+                          "A26",
+                      ],
                   }
               ],
               "includes": [
                   {"relation": "setupTeamHome.team"},
                   {"relation": "setupTeamVisitor.team"},
-                  {"relation": "fieldLocation"}
-              ]
+                  {"relation": "fieldLocation"},
+              ],
           }
 
           report = {
@@ -94,6 +130,7 @@ jobs:
               "status": "incomplete",
               "games_identified": 0,
               "games_audited": 0,
+              "violations": [],
               "games": [],
               "unverified": [],
               "generated_at": datetime.now(TZ).isoformat(),
@@ -103,25 +140,23 @@ jobs:
               calendar = request_json(
                   CALENDAR_URL,
                   method="POST",
-                  payload=payload
+                  payload=payload,
               )
+
               games = calendar.get("data", [])
 
           except Exception as exc:
-              report["unverified"].append({
-                  "stage": "calendar",
-                  "error": str(exc)
-              })
               games = []
 
-          # Only games that appear to have been played/completed.
+              report["unverified"].append({
+                  "stage": "calendar",
+                  "error": str(exc),
+              })
+
           completed = []
 
           for game in games:
-              home_score = game.get("score_home")
-              away_score = game.get("score_visitor")
-
-              if home_score is not None and away_score is not None:
+              if game.get("status") == "completed":
                   completed.append(game)
 
           report["games_identified"] = len(completed)
@@ -132,40 +167,255 @@ jobs:
           for game in completed:
               match_id = game.get("id")
 
-              home = (
-                  game.get("setup_team_home", {})
-                      .get("team", {})
-                      .get("name", "Unknown")
+              home_setup = game.get("setup_team_home") or {}
+              visitor_setup = (
+                  game.get("setup_team_visitor") or {}
               )
 
-              away = (
-                  game.get("setup_team_visitor", {})
-                      .get("team", {})
-                      .get("name", "Unknown")
+              home = (
+                  (home_setup.get("team") or {})
+                  .get("name", "Unknown")
+              )
+
+              visitor = (
+                  (visitor_setup.get("team") or {})
+                  .get("name", "Unknown")
               )
 
               try:
-                  stats = request_json(
-                      f"{STATS_URL}?match_id={match_id}&gp=1&stats=0"
+                  players = request_json(
+                      f"{STATS_URL}"
+                      f"?match_id={match_id}"
+                      f"&gp=1&stats=0"
                   )
 
-                  if not isinstance(stats, list) or not stats:
-                      raise RuntimeError("No GP player data returned")
+                  if not isinstance(players, list):
+                      raise RuntimeError(
+                          "Invalid GP player response"
+                      )
 
                   gp_players = [
-                      p for p in stats
-                      if float(p.get("gp") or 0) == 1.0
+                      player
+                      for player in players
+                      if float(
+                          player.get("gp") or 0
+                      ) == 1.0
                   ]
 
                   if not gp_players:
-                      raise RuntimeError("No GP-credited players returned")
+                      raise RuntimeError(
+                          "No GP-credited players returned"
+                      )
+
+                  team_specs = [
+                      (
+                          game.get("setup_team_id_home"),
+                          home,
+                          home_setup.get(
+                              "setup_division_id"
+                          )
+                          or game.get(
+                              "setup_division_id"
+                          ),
+                      ),
+                      (
+                          game.get(
+                              "setup_team_id_visitor"
+                          ),
+                          visitor,
+                          visitor_setup.get(
+                              "setup_division_id"
+                          )
+                          or game.get(
+                              "setup_division_id"
+                          ),
+                      ),
+                  ]
+
+                  team_audits = []
+
+                  for (
+                      team_id,
+                      team_name,
+                      division_id,
+                  ) in team_specs:
+
+                      if division_id not in CAPS:
+                          raise RuntimeError(
+                              "Unknown cap mapping for "
+                              f"setup division "
+                              f"{division_id}"
+                          )
+
+                      (
+                          division_name,
+                          players_counted,
+                          team_cap,
+                          qb_cap,
+                      ) = CAPS[division_id]
+
+                      team_players = [
+                          player
+                          for player in gp_players
+                          if player.get(
+                              "setup_team_id"
+                          ) == team_id
+                      ]
+
+                      if not team_players:
+                          raise RuntimeError(
+                              "No GP players matched "
+                              f"{team_name}"
+                          )
+
+                      off_ratings = sorted(
+                          [
+                              float(
+                                  player.get("off")
+                                  or 0
+                              )
+                              for player
+                              in team_players
+                          ],
+                          reverse=True,
+                      )
+
+                      def_ratings = sorted(
+                          [
+                              float(
+                                  player.get("def")
+                                  or 0
+                              )
+                              for player
+                              in team_players
+                          ],
+                          reverse=True,
+                      )
+
+                      offense = round(
+                          sum(
+                              off_ratings[
+                                  :players_counted
+                              ]
+                          ),
+                          1,
+                      )
+
+                      defense = round(
+                          sum(
+                              def_ratings[
+                                  :players_counted
+                              ]
+                          ),
+                          1,
+                      )
+
+                      team_audits.append({
+                          "team": team_name,
+                          "division": division_name,
+                          "format": (
+                              f"{players_counted}v"
+                              f"{players_counted}"
+                          ),
+                          "off_rating": offense,
+                          "def_rating": defense,
+                          "team_cap": team_cap,
+                          "qb_cap": qb_cap,
+                      })
+
+                      if offense > team_cap:
+                          report[
+                              "violations"
+                          ].append({
+                              "match_id": match_id,
+                              "team": team_name,
+                              "division": (
+                                  division_name
+                              ),
+                              "type": "OFF",
+                              "calculated": offense,
+                              "cap": team_cap,
+                              "over": round(
+                                  offense - team_cap,
+                                  1,
+                              ),
+                          })
+
+                      if defense > team_cap:
+                          report[
+                              "violations"
+                          ].append({
+                              "match_id": match_id,
+                              "team": team_name,
+                              "division": (
+                                  division_name
+                              ),
+                              "type": "DEF",
+                              "calculated": defense,
+                              "cap": team_cap,
+                              "over": round(
+                                  defense - team_cap,
+                                  1,
+                              ),
+                          })
+
+                      # QB cap applies to a GP player
+                      # who actually completed a pass
+                      # in this game.
+
+                      for player in team_players:
+                          completions = float(
+                              player.get("1com")
+                              or 0
+                          )
+
+                          if completions <= 0:
+                              continue
+
+                          qb_rating = float(
+                              player.get(
+                                  "qb_rating"
+                              )
+                              or 0
+                          )
+
+                          if qb_rating > qb_cap:
+                              player_name = (
+                                  f"{player.get('fname', '')} "
+                                  f"{player.get('lname', '')}"
+                              ).strip()
+
+                              report[
+                                  "violations"
+                              ].append({
+                                  "match_id": (
+                                      match_id
+                                  ),
+                                  "team": team_name,
+                                  "division": (
+                                      division_name
+                                  ),
+                                  "type": "QB",
+                                  "player": (
+                                      player_name
+                                  ),
+                                  "calculated": round(
+                                      qb_rating,
+                                      1,
+                                  ),
+                                  "cap": qb_cap,
+                                  "over": round(
+                                      qb_rating
+                                      - qb_cap,
+                                      1,
+                                  ),
+                              })
 
                   report["games"].append({
                       "match_id": match_id,
                       "home": home,
-                      "visitor": away,
-                      "setup_division_id": game.get("setup_division_id"),
-                      "players": gp_players,
+                      "visitor": visitor,
+                      "team_audits": team_audits,
                   })
 
                   report["games_audited"] += 1
@@ -174,40 +424,64 @@ jobs:
                   report["unverified"].append({
                       "match_id": match_id,
                       "home": home,
-                      "visitor": away,
+                      "visitor": visitor,
                       "error": str(exc),
                   })
 
           if completed:
               if (
-                  report["games_audited"] == report["games_identified"]
+                  report["games_audited"]
+                  == report["games_identified"]
                   and not report["unverified"]
               ):
-                  # This means collection is complete. Cap calculations will
-                  # only be declared complete once division/cap mapping is
-                  # positively identified.
-                  report["status"] = "collected"
+                  report["status"] = "complete"
 
           Path("reports").mkdir(exist_ok=True)
 
-          dated = Path("reports") / f"{audit_date}.json"
-          latest = Path("reports") / "latest.json"
-
-          text = json.dumps(report, indent=2)
-
-          dated.write_text(text, encoding="utf-8")
-          latest.write_text(text, encoding="utf-8")
-
-          print(
-              f"STATUS={report['status']} "
-              f"GAMES={report['games_identified']} "
-              f"COLLECTED={report['games_audited']}"
+          report_text = json.dumps(
+              report,
+              indent=2,
           )
 
-          if report["unverified"]:
-              print("INCOMPLETE DATA:")
-              for item in report["unverified"]:
-                  print(item)
+          Path(
+              f"reports/{audit_date}.json"
+          ).write_text(
+              report_text,
+              encoding="utf-8",
+          )
+
+          Path(
+              "reports/latest.json"
+          ).write_text(
+              report_text,
+              encoding="utf-8",
+          )
+
+          print(
+              json.dumps(
+                  {
+                      "date": report["date"],
+                      "status": report["status"],
+                      "games_identified": (
+                          report[
+                              "games_identified"
+                          ]
+                      ),
+                      "games_audited": (
+                          report[
+                              "games_audited"
+                          ]
+                      ),
+                      "violations": (
+                          report["violations"]
+                      ),
+                      "unverified": (
+                          report["unverified"]
+                      ),
+                  },
+                  indent=2,
+              )
+          )
           PY
 
       - name: Save audit report
