@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-12",
+  "status": "complete",
+  "games_identified": 4,
+  "games_audited": 4,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47658,
+      "home": "Frenza's Bush",
+      "visitor": "Multiple Scoregasms",
+      "team_audits": [
+        {
+          "team": "Frenza's Bush",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 343.0,
+          "def_rating": 355.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Multiple Scoregasms",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 369.8,
+          "def_rating": 374.5,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47273,
+      "home": "Fitsquad",
+      "visitor": "Lego My Flag",
+      "team_audits": [
+        {
+          "team": "Fitsquad",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 446.4,
+          "def_rating": 442.1,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Lego My Flag",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 480.5,
+          "def_rating": 450.0,
+          "team_cap": 490,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47660,
+      "home": "Killer Rays",
+      "visitor": "Texas Whales",
+      "team_audits": [
+        {
+          "team": "Killer Rays",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 443.2,
+          "def_rating": 423.6,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Texas Whales",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 408.7,
+          "def_rating": 440.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47659,
+      "home": "All Day Every Day",
+      "visitor": "Kamikaze",
+      "team_audits": [
+        {
+          "team": "All Day Every Day",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 446.7,
+          "def_rating": 453.9,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Kamikaze",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 429.9,
+          "def_rating": 435.1,
+          "team_cap": 460,
+          "qb_cap": 85
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-10-13T08:58:37.692278-04:00"
+}
