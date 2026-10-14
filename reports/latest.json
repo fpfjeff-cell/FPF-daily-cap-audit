@@ -1,111 +1,161 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "status": "complete",
-  "games_identified": 4,
-  "games_audited": 4,
+  "games_identified": 6,
+  "games_audited": 6,
   "violations": [],
   "games": [
     {
-      "match_id": 47658,
-      "home": "Frenza's Bush",
-      "visitor": "Multiple Scoregasms",
+      "match_id": 47662,
+      "home": "Vultures",
+      "visitor": "Hard 10",
       "team_audits": [
         {
-          "team": "Frenza's Bush",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 343.0,
-          "def_rating": 355.6,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Vultures",
+          "division": "Competitive",
+          "format": "5v5",
+          "off_rating": 443.1,
+          "def_rating": 431.0,
+          "team_cap": 500,
+          "qb_cap": 100
         },
         {
-          "team": "Multiple Scoregasms",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 369.8,
-          "def_rating": 374.5,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47273,
-      "home": "Fitsquad",
-      "visitor": "Lego My Flag",
-      "team_audits": [
-        {
-          "team": "Fitsquad",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 446.4,
-          "def_rating": 442.1,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "Lego My Flag",
-          "division": "Co-Ed 1",
-          "format": "6v6",
-          "off_rating": 480.5,
-          "def_rating": 450.0,
-          "team_cap": 490,
+          "team": "Hard 10",
+          "division": "Competitive",
+          "format": "5v5",
+          "off_rating": 416.6,
+          "def_rating": 413.2,
+          "team_cap": 500,
           "qb_cap": 100
         }
       ]
     },
     {
-      "match_id": 47660,
-      "home": "Killer Rays",
-      "visitor": "Texas Whales",
+      "match_id": 47661,
+      "home": "Bleue Dry",
+      "visitor": "The Hustlers",
       "team_audits": [
         {
-          "team": "Killer Rays",
+          "team": "Bleue Dry",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 401.7,
+          "def_rating": 386.5,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "The Hustlers",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 402.4,
+          "def_rating": 385.7,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    },
+    {
+      "match_id": 47664,
+      "home": "Uncle Rico's Ryders",
+      "visitor": "Mofos",
+      "team_audits": [
+        {
+          "team": "Uncle Rico's Ryders",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 443.2,
-          "def_rating": 423.6,
+          "off_rating": 443.7,
+          "def_rating": 443.9,
           "team_cap": 470,
           "qb_cap": 80
         },
         {
-          "team": "Texas Whales",
+          "team": "Mofos",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 408.7,
-          "def_rating": 440.4,
+          "off_rating": 447.8,
+          "def_rating": 438.4,
           "team_cap": 470,
           "qb_cap": 80
         }
       ]
     },
     {
-      "match_id": 47659,
-      "home": "All Day Every Day",
-      "visitor": "Kamikaze",
+      "match_id": 47663,
+      "home": "Still Underdogs",
+      "visitor": "Friends and Family",
       "team_audits": [
         {
-          "team": "All Day Every Day",
-          "division": "Co-Ed 2",
+          "team": "Still Underdogs",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 446.7,
-          "def_rating": 453.9,
-          "team_cap": 460,
-          "qb_cap": 85
+          "off_rating": 424.3,
+          "def_rating": 425.0,
+          "team_cap": 425,
+          "qb_cap": 72
         },
         {
-          "team": "Kamikaze",
-          "division": "Co-Ed 2",
+          "team": "Friends and Family",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 429.9,
-          "def_rating": 435.1,
-          "team_cap": 460,
-          "qb_cap": 85
+          "off_rating": 416.2,
+          "def_rating": 421.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47666,
+      "home": "No Punt Intended",
+      "visitor": "Shockerz",
+      "team_audits": [
+        {
+          "team": "No Punt Intended",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 468.0,
+          "def_rating": 461.1,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Shockerz",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 420.5,
+          "def_rating": 423.2,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47665,
+      "home": "Boof Squad",
+      "visitor": "Gridiron Elite",
+      "team_audits": [
+        {
+          "team": "Boof Squad",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 400.1,
+          "def_rating": 406.2,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Gridiron Elite",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 379.6,
+          "def_rating": 376.6,
+          "team_cap": 410,
+          "qb_cap": 82
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-10-13T08:58:37.692278-04:00"
+  "generated_at": "2026-10-14T09:10:55.244369-04:00"
 }
