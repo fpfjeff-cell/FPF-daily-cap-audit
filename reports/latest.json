@@ -1,171 +1,96 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "status": "complete",
-  "games_identified": 10,
-  "games_audited": 10,
+  "games_identified": 6,
+  "games_audited": 6,
   "violations": [],
   "games": [
     {
-      "match_id": 47692,
-      "home": "Viscious & Delicious",
-      "visitor": "No Pads, No Helmets, Just Ballz",
+      "match_id": 47703,
+      "home": "Trailer Park Boys",
+      "visitor": "Practice Squad IV",
       "team_audits": [
         {
-          "team": "Viscious & Delicious",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 423.6,
-          "def_rating": 424.1,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "No Pads, No Helmets, Just Ballz",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 426.3,
-          "def_rating": 442.9,
-          "team_cap": 460,
-          "qb_cap": 85
-        }
-      ]
-    },
-    {
-      "match_id": 47693,
-      "home": "Mixtologue",
-      "visitor": "Fitsquad",
-      "team_audits": [
-        {
-          "team": "Mixtologue",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 404.6,
-          "def_rating": 433.9,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "Fitsquad",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 456.0,
-          "def_rating": 447.6,
-          "team_cap": 460,
-          "qb_cap": 85
-        }
-      ]
-    },
-    {
-      "match_id": 47695,
-      "home": "KGP",
-      "visitor": "Beer Belly Brigade",
-      "team_audits": [
-        {
-          "team": "KGP",
-          "division": "Tier 2",
-          "format": "6v6",
-          "off_rating": 502.0,
-          "def_rating": 483.1,
-          "team_cap": 510,
-          "qb_cap": 90
-        },
-        {
-          "team": "Beer Belly Brigade",
-          "division": "Tier 2",
-          "format": "6v6",
-          "off_rating": 478.7,
-          "def_rating": 475.0,
-          "team_cap": 510,
-          "qb_cap": 90
-        }
-      ]
-    },
-    {
-      "match_id": 47694,
-      "home": "MTL MAGIC",
-      "visitor": "Vultures",
-      "team_audits": [
-        {
-          "team": "MTL MAGIC",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 438.0,
-          "def_rating": 415.8,
-          "team_cap": 500,
-          "qb_cap": 100
-        },
-        {
-          "team": "Vultures",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 441.5,
-          "def_rating": 430.9,
-          "team_cap": 500,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47697,
-      "home": "No Porking Around",
-      "visitor": "Les Touchables",
-      "team_audits": [
-        {
-          "team": "No Porking Around",
+          "team": "Trailer Park Boys",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 385.0,
-          "def_rating": 411.3,
+          "off_rating": 408.6,
+          "def_rating": 413.4,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Les Touchables",
+          "team": "Practice Squad IV",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 403.3,
-          "def_rating": 405.9,
+          "off_rating": 417.2,
+          "def_rating": 418.3,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47696,
-      "home": "United Nations of Touchdowns",
-      "visitor": "Flagmaprix",
+      "match_id": 47702,
+      "home": "TROUBLE IN PARADISE",
+      "visitor": "4th & Wine",
       "team_audits": [
         {
-          "team": "United Nations of Touchdowns",
+          "team": "TROUBLE IN PARADISE",
           "division": "Co-Ed 3",
           "format": "6v6",
-          "off_rating": 404.4,
-          "def_rating": 424.0,
+          "off_rating": 403.6,
+          "def_rating": 429.5,
           "team_cap": 430,
           "qb_cap": 75
         },
         {
-          "team": "Flagmaprix",
+          "team": "4th & Wine",
           "division": "Co-Ed 3",
           "format": "6v6",
-          "off_rating": 387.1,
-          "def_rating": 403.6,
+          "off_rating": 396.0,
+          "def_rating": 406.2,
           "team_cap": 430,
           "qb_cap": 75
         }
       ]
     },
     {
-      "match_id": 47698,
-      "home": "Boof Squad",
+      "match_id": 47704,
+      "home": "Mofos",
+      "visitor": "Team Ethnik",
+      "team_audits": [
+        {
+          "team": "Mofos",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 437.9,
+          "def_rating": 437.9,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Team Ethnik",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 426.5,
+          "def_rating": 415.9,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47705,
+      "home": "Alessia's",
       "visitor": "Junkyard Dogs",
       "team_audits": [
         {
-          "team": "Boof Squad",
+          "team": "Alessia's",
           "division": "Intermediate",
           "format": "5v5",
-          "off_rating": 392.6,
-          "def_rating": 406.2,
+          "off_rating": 358.2,
+          "def_rating": 358.3,
           "team_cap": 410,
           "qb_cap": 82
         },
@@ -173,89 +98,64 @@
           "team": "Junkyard Dogs",
           "division": "Intermediate",
           "format": "5v5",
-          "off_rating": 409.1,
-          "def_rating": 406.6,
+          "off_rating": 408.7,
+          "def_rating": 405.3,
           "team_cap": 410,
           "qb_cap": 82
         }
       ]
     },
     {
-      "match_id": 47699,
-      "home": "Shark Attack",
-      "visitor": "The North",
+      "match_id": 47706,
+      "home": "Vengeance",
+      "visitor": "Friends and Family",
       "team_audits": [
         {
-          "team": "Shark Attack",
-          "division": "Co-Ed 5v5",
-          "format": "5v5",
-          "off_rating": 355.0,
-          "def_rating": 362.2,
-          "team_cap": 425,
-          "qb_cap": 100
-        },
-        {
-          "team": "The North",
-          "division": "Co-Ed 5v5",
-          "format": "5v5",
-          "off_rating": 382.3,
-          "def_rating": 366.9,
-          "team_cap": 425,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47700,
-      "home": "Illegal Aliens",
-      "visitor": "Yakboyzz",
-      "team_audits": [
-        {
-          "team": "Illegal Aliens",
+          "team": "Vengeance",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 380.1,
-          "def_rating": 388.0,
+          "off_rating": 386.0,
+          "def_rating": 408.0,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Yakboyzz",
+          "team": "Friends and Family",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 351.6,
-          "def_rating": 362.7,
+          "off_rating": 411.0,
+          "def_rating": 423.8,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47701,
-      "home": "Frenza's Bush",
-      "visitor": "Jamaican Bobsled Team",
+      "match_id": 47275,
+      "home": "Chaos",
+      "visitor": "The Originals",
       "team_audits": [
         {
-          "team": "Frenza's Bush",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 347.9,
-          "def_rating": 370.5,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Chaos",
+          "division": "Women's 1",
+          "format": "5v5",
+          "off_rating": 373.3,
+          "def_rating": 367.6,
+          "team_cap": 500,
+          "qb_cap": 100
         },
         {
-          "team": "Jamaican Bobsled Team",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 370.5,
-          "def_rating": 377.6,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "The Originals",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.2,
+          "def_rating": 363.0,
+          "team_cap": 370,
+          "qb_cap": 70
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-10-20T09:16:08.203401-04:00"
+  "generated_at": "2026-10-21T09:17:57.711863-04:00"
 }
