@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-22",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [
+    {
+      "match_id": 47707,
+      "team": "Trailer Park Boys",
+      "division": "Tier 4",
+      "type": "OFF",
+      "calculated": 425.1,
+      "cap": 425,
+      "over": 0.1
+    },
+    {
+      "match_id": 47707,
+      "team": "Trailer Park Boys",
+      "division": "Tier 4",
+      "type": "DEF",
+      "calculated": 427.9,
+      "cap": 425,
+      "over": 2.9
+    }
+  ],
+  "games": [
+    {
+      "match_id": 47709,
+      "home": "Hard 6",
+      "visitor": "Vultures",
+      "team_audits": [
+        {
+          "team": "Hard 6",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 337.2,
+          "def_rating": 360.8,
+          "team_cap": 600,
+          "qb_cap": 100
+        },
+        {
+          "team": "Vultures",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 516.8,
+          "def_rating": 504.9,
+          "team_cap": 600,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47707,
+      "home": "Trailer Park Boys",
+      "visitor": "Still an Inch Short",
+      "team_audits": [
+        {
+          "team": "Trailer Park Boys",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 425.1,
+          "def_rating": 427.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Still an Inch Short",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 395.9,
+          "def_rating": 409.7,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47708,
+      "home": "TROUBLE IN PARADISE",
+      "visitor": "Flagaholics",
+      "team_audits": [
+        {
+          "team": "TROUBLE IN PARADISE",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 303.0,
+          "def_rating": 326.9,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "Flagaholics",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.9,
+          "def_rating": 362.5,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    },
+    {
+      "match_id": 47710,
+      "home": "Super Bock",
+      "visitor": "Devious Dogs",
+      "team_audits": [
+        {
+          "team": "Super Bock",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 391.3,
+          "def_rating": 421.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Devious Dogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 356.8,
+          "def_rating": 385.7,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47711,
+      "home": "Voodoo",
+      "visitor": "Tops\u2019n Tops",
+      "team_audits": [
+        {
+          "team": "Voodoo",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 410.8,
+          "def_rating": 411.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Tops\u2019n Tops",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 380.5,
+          "def_rating": 414.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47712,
+      "home": "The Merge",
+      "visitor": "Tea Party",
+      "team_audits": [
+        {
+          "team": "The Merge",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 488.2,
+          "def_rating": 476.4,
+          "team_cap": 490,
+          "qb_cap": 100
+        },
+        {
+          "team": "Tea Party",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 470.0,
+          "def_rating": 456.0,
+          "team_cap": 490,
+          "qb_cap": 100
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-10-23T09:14:05.186297-04:00"
+}
