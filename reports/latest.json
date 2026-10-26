@@ -1,311 +1,211 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "status": "complete",
-  "games_identified": 12,
-  "games_audited": 12,
+  "games_identified": 8,
+  "games_audited": 8,
   "violations": [],
   "games": [
     {
-      "match_id": 47714,
-      "home": "Illegal Aliens",
-      "visitor": "TDiddy",
+      "match_id": 47725,
+      "home": "Molson Import",
+      "visitor": "TuneSquad",
       "team_audits": [
         {
-          "team": "Illegal Aliens",
+          "team": "Molson Import",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 377.4,
-          "def_rating": 392.6,
+          "off_rating": 390.2,
+          "def_rating": 423.9,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "TDiddy",
+          "team": "TuneSquad",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 399.2,
-          "def_rating": 392.0,
+          "off_rating": 404.6,
+          "def_rating": 410.3,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47715,
-      "home": "PHANTOM 450",
-      "visitor": "Ball Hawks",
+      "match_id": 47726,
+      "home": "Super Troopers",
+      "visitor": "Still an Inch Short",
       "team_audits": [
         {
-          "team": "PHANTOM 450",
+          "team": "Super Troopers",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 389.3,
-          "def_rating": 394.9,
+          "off_rating": 419.1,
+          "def_rating": 424.2,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Ball Hawks",
+          "team": "Still an Inch Short",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 412.9,
-          "def_rating": 422.8,
+          "off_rating": 393.8,
+          "def_rating": 402.5,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47713,
-      "home": "Flagmingos",
-      "visitor": "La caisse de 12 en rabais",
+      "match_id": 47728,
+      "home": "Les Petites Carottes",
+      "visitor": "Hard 8",
       "team_audits": [
         {
-          "team": "Flagmingos",
-          "division": "Co-Ed 4",
+          "team": "Les Petites Carottes",
+          "division": "Tier 2",
           "format": "6v6",
-          "off_rating": 335.2,
-          "def_rating": 365.7,
+          "off_rating": 485.3,
+          "def_rating": 467.8,
+          "team_cap": 510,
+          "qb_cap": 90
+        },
+        {
+          "team": "Hard 8",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 488.0,
+          "def_rating": 470.0,
+          "team_cap": 510,
+          "qb_cap": 90
+        }
+      ]
+    },
+    {
+      "match_id": 47727,
+      "home": "4th & Wine",
+      "visitor": "Chips and Dip",
+      "team_audits": [
+        {
+          "team": "4th & Wine",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 428.8,
+          "def_rating": 429.5,
+          "team_cap": 430,
+          "qb_cap": 75
+        },
+        {
+          "team": "Chips and Dip",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 387.6,
+          "def_rating": 396.5,
+          "team_cap": 430,
+          "qb_cap": 75
+        }
+      ]
+    },
+    {
+      "match_id": 47729,
+      "home": "Bloodline",
+      "visitor": "Over/Under Achievers",
+      "team_audits": [
+        {
+          "team": "Bloodline",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 349.1,
+          "def_rating": 359.3,
           "team_cap": 380,
           "qb_cap": 65
         },
         {
-          "team": "La caisse de 12 en rabais",
-          "division": "Co-Ed 4",
+          "team": "Over/Under Achievers",
+          "division": "Tier 5",
           "format": "6v6",
-          "off_rating": 335.0,
-          "def_rating": 354.9,
+          "off_rating": 347.7,
+          "def_rating": 373.0,
           "team_cap": 380,
           "qb_cap": 65
         }
       ]
     },
     {
-      "match_id": 47718,
-      "home": "Texas Whales",
-      "visitor": "Win Diesel",
+      "match_id": 47730,
+      "home": "Shark Attack",
+      "visitor": "Air Buds",
       "team_audits": [
         {
-          "team": "Texas Whales",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 442.1,
-          "def_rating": 431.6,
-          "team_cap": 470,
-          "qb_cap": 80
+          "team": "Shark Attack",
+          "division": "Co-Ed 5v5",
+          "format": "5v5",
+          "off_rating": 358.6,
+          "def_rating": 364.7,
+          "team_cap": 425,
+          "qb_cap": 100
         },
         {
-          "team": "Win Diesel",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 458.9,
-          "def_rating": 462.8,
-          "team_cap": 470,
-          "qb_cap": 80
+          "team": "Air Buds",
+          "division": "Co-Ed 5v5",
+          "format": "5v5",
+          "off_rating": 412.2,
+          "def_rating": 391.3,
+          "team_cap": 425,
+          "qb_cap": 100
         }
       ]
     },
     {
-      "match_id": 47717,
-      "home": "No Pads, No Helmets, Just Ballz",
-      "visitor": "Kamikaze",
+      "match_id": 47731,
+      "home": "Hard 6",
+      "visitor": "Fins Up",
       "team_audits": [
         {
-          "team": "No Pads, No Helmets, Just Ballz",
-          "division": "Co-Ed 2",
+          "team": "Hard 6",
+          "division": "Tier 1",
           "format": "6v6",
-          "off_rating": 436.7,
-          "def_rating": 449.7,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "Kamikaze",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 432.8,
+          "off_rating": 461.9,
           "def_rating": 435.9,
-          "team_cap": 460,
-          "qb_cap": 85
+          "team_cap": 600,
+          "qb_cap": 100
+        },
+        {
+          "team": "Fins Up",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 522.9,
+          "def_rating": 489.8,
+          "team_cap": 600,
+          "qb_cap": 100
         }
       ]
     },
     {
-      "match_id": 47716,
-      "home": "Softies",
-      "visitor": "Flagmingos",
+      "match_id": 47276,
+      "home": "GVO",
+      "visitor": "Chaos",
       "team_audits": [
         {
-          "team": "Softies",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 330.0,
-          "def_rating": 330.0,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "GVO",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 324.2,
+          "def_rating": 363.0,
+          "team_cap": 370,
+          "qb_cap": 70
         },
         {
-          "team": "Flagmingos",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 335.2,
-          "def_rating": 365.7,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47719,
-      "home": "Airs",
-      "visitor": "Shnito\u2019s and Benito\u2019s",
-      "team_audits": [
-        {
-          "team": "Airs",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 383.4,
-          "def_rating": 402.6,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Shnito\u2019s and Benito\u2019s",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 390.3,
-          "def_rating": 401.1,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47720,
-      "home": "PSTM",
-      "visitor": "Gators",
-      "team_audits": [
-        {
-          "team": "PSTM",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 385.7,
-          "def_rating": 399.2,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Gators",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 416.0,
-          "def_rating": 420.6,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47722,
-      "home": "Catch My Balls",
-      "visitor": "Beauties and Beasts",
-      "team_audits": [
-        {
-          "team": "Catch My Balls",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 369.9,
-          "def_rating": 356.0,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Beauties and Beasts",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 337.6,
-          "def_rating": 341.1,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47723,
-      "home": "Friends and Family",
-      "visitor": "Sans Pression",
-      "team_audits": [
-        {
-          "team": "Friends and Family",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 404.1,
-          "def_rating": 401.4,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Sans Pression",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 392.8,
-          "def_rating": 418.5,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47721,
-      "home": "Vicks Doghouse",
-      "visitor": "Frenza's Bush",
-      "team_audits": [
-        {
-          "team": "Vicks Doghouse",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 364.5,
-          "def_rating": 372.4,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Frenza's Bush",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 343.0,
-          "def_rating": 355.6,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47724,
-      "home": "Sacks Appeal",
-      "visitor": "Catch My Balls",
-      "team_audits": [
-        {
-          "team": "Sacks Appeal",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 363.9,
-          "def_rating": 368.5,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Catch My Balls",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 366.3,
-          "def_rating": 361.7,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Chaos",
+          "division": "Women's 1",
+          "format": "5v5",
+          "off_rating": 371.1,
+          "def_rating": 374.6,
+          "team_cap": 500,
+          "qb_cap": 100
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-10-25T09:08:52.950480-04:00"
+  "generated_at": "2026-10-26T11:02:22.724163-04:00"
 }

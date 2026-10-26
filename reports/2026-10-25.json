@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-25",
+  "status": "complete",
+  "games_identified": 8,
+  "games_audited": 8,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47725,
+      "home": "Molson Import",
+      "visitor": "TuneSquad",
+      "team_audits": [
+        {
+          "team": "Molson Import",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 390.2,
+          "def_rating": 423.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "TuneSquad",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 404.6,
+          "def_rating": 410.3,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47726,
+      "home": "Super Troopers",
+      "visitor": "Still an Inch Short",
+      "team_audits": [
+        {
+          "team": "Super Troopers",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 419.1,
+          "def_rating": 424.2,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Still an Inch Short",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 393.8,
+          "def_rating": 402.5,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47728,
+      "home": "Les Petites Carottes",
+      "visitor": "Hard 8",
+      "team_audits": [
+        {
+          "team": "Les Petites Carottes",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 485.3,
+          "def_rating": 467.8,
+          "team_cap": 510,
+          "qb_cap": 90
+        },
+        {
+          "team": "Hard 8",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 488.0,
+          "def_rating": 470.0,
+          "team_cap": 510,
+          "qb_cap": 90
+        }
+      ]
+    },
+    {
+      "match_id": 47727,
+      "home": "4th & Wine",
+      "visitor": "Chips and Dip",
+      "team_audits": [
+        {
+          "team": "4th & Wine",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 428.8,
+          "def_rating": 429.5,
+          "team_cap": 430,
+          "qb_cap": 75
+        },
+        {
+          "team": "Chips and Dip",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 387.6,
+          "def_rating": 396.5,
+          "team_cap": 430,
+          "qb_cap": 75
+        }
+      ]
+    },
+    {
+      "match_id": 47729,
+      "home": "Bloodline",
+      "visitor": "Over/Under Achievers",
+      "team_audits": [
+        {
+          "team": "Bloodline",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 349.1,
+          "def_rating": 359.3,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Over/Under Achievers",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 347.7,
+          "def_rating": 373.0,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47730,
+      "home": "Shark Attack",
+      "visitor": "Air Buds",
+      "team_audits": [
+        {
+          "team": "Shark Attack",
+          "division": "Co-Ed 5v5",
+          "format": "5v5",
+          "off_rating": 358.6,
+          "def_rating": 364.7,
+          "team_cap": 425,
+          "qb_cap": 100
+        },
+        {
+          "team": "Air Buds",
+          "division": "Co-Ed 5v5",
+          "format": "5v5",
+          "off_rating": 412.2,
+          "def_rating": 391.3,
+          "team_cap": 425,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47731,
+      "home": "Hard 6",
+      "visitor": "Fins Up",
+      "team_audits": [
+        {
+          "team": "Hard 6",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 461.9,
+          "def_rating": 435.9,
+          "team_cap": 600,
+          "qb_cap": 100
+        },
+        {
+          "team": "Fins Up",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 522.9,
+          "def_rating": 489.8,
+          "team_cap": 600,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47276,
+      "home": "GVO",
+      "visitor": "Chaos",
+      "team_audits": [
+        {
+          "team": "GVO",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 324.2,
+          "def_rating": 363.0,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "Chaos",
+          "division": "Women's 1",
+          "format": "5v5",
+          "off_rating": 371.1,
+          "def_rating": 374.6,
+          "team_cap": 500,
+          "qb_cap": 100
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-10-26T11:02:22.724163-04:00"
+}
