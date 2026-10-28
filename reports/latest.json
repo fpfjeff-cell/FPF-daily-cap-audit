@@ -1,272 +1,180 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "status": "complete",
-  "games_identified": 10,
-  "games_audited": 10,
+  "games_identified": 6,
+  "games_audited": 6,
   "violations": [
     {
-      "match_id": 47740,
-      "team": "Multiple Scoregasms",
-      "division": "Tier 5",
-      "type": "QB",
-      "player": "Joshua Vazquez",
-      "calculated": 71.9,
-      "cap": 65,
-      "over": 6.9
+      "match_id": 47743,
+      "team": "Trailer Park Boys",
+      "division": "Tier 4",
+      "type": "OFF",
+      "calculated": 425.1,
+      "cap": 425,
+      "over": 0.1
+    },
+    {
+      "match_id": 47743,
+      "team": "Trailer Park Boys",
+      "division": "Tier 4",
+      "type": "DEF",
+      "calculated": 427.9,
+      "cap": 425,
+      "over": 2.9
     }
   ],
   "games": [
     {
-      "match_id": 47732,
-      "home": "Hard 10",
-      "visitor": "MTL MAGIC",
+      "match_id": 47743,
+      "home": "Tops\u2019n Tops",
+      "visitor": "Trailer Park Boys",
       "team_audits": [
         {
-          "team": "Hard 10",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 427.6,
-          "def_rating": 415.4,
-          "team_cap": 500,
-          "qb_cap": 100
-        },
-        {
-          "team": "MTL MAGIC",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 439.0,
-          "def_rating": 409.1,
-          "team_cap": 500,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47733,
-      "home": "EZW",
-      "visitor": "Vultures",
-      "team_audits": [
-        {
-          "team": "EZW",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 435.0,
-          "def_rating": 419.8,
-          "team_cap": 500,
-          "qb_cap": 100
-        },
-        {
-          "team": "Vultures",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 441.5,
-          "def_rating": 430.9,
-          "team_cap": 500,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47734,
-      "home": "The Merge",
-      "visitor": "Mismatch",
-      "team_audits": [
-        {
-          "team": "The Merge",
-          "division": "Co-Ed 1",
-          "format": "6v6",
-          "off_rating": 484.5,
-          "def_rating": 473.3,
-          "team_cap": 490,
-          "qb_cap": 100
-        },
-        {
-          "team": "Mismatch",
-          "division": "Co-Ed 1",
-          "format": "6v6",
-          "off_rating": 475.9,
-          "def_rating": 462.7,
-          "team_cap": 490,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47735,
-      "home": "Kamikaze",
-      "visitor": "Fitsquad",
-      "team_audits": [
-        {
-          "team": "Kamikaze",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 432.8,
-          "def_rating": 435.9,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "Fitsquad",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 446.4,
-          "def_rating": 442.1,
-          "team_cap": 460,
-          "qb_cap": 85
-        }
-      ]
-    },
-    {
-      "match_id": 47737,
-      "home": "OneStop",
-      "visitor": "Vultures",
-      "team_audits": [
-        {
-          "team": "OneStop",
-          "division": "Tier 1",
-          "format": "6v6",
-          "off_rating": 516.9,
-          "def_rating": 497.7,
-          "team_cap": 600,
-          "qb_cap": 100
-        },
-        {
-          "team": "Vultures",
-          "division": "Tier 1",
-          "format": "6v6",
-          "off_rating": 519.6,
-          "def_rating": 492.0,
-          "team_cap": 600,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47736,
-      "home": "Team Ethnik",
-      "visitor": "Killer Rays",
-      "team_audits": [
-        {
-          "team": "Team Ethnik",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 428.8,
-          "def_rating": 424.2,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Killer Rays",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 468.3,
-          "def_rating": 455.2,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47738,
-      "home": "Jagerbomb",
-      "visitor": "Ranceurs",
-      "team_audits": [
-        {
-          "team": "Jagerbomb",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 468.8,
-          "def_rating": 466.6,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Ranceurs",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 454.2,
-          "def_rating": 428.8,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47739,
-      "home": "Mengoose",
-      "visitor": "NoFlagsGiven",
-      "team_audits": [
-        {
-          "team": "Mengoose",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 440.1,
-          "def_rating": 457.7,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "NoFlagsGiven",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 442.8,
-          "def_rating": 437.3,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47741,
-      "home": "Aladeen FC",
-      "visitor": "Friends and Family",
-      "team_audits": [
-        {
-          "team": "Aladeen FC",
+          "team": "Tops\u2019n Tops",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 361.1,
-          "def_rating": 364.8,
+          "off_rating": 393.0,
+          "def_rating": 415.0,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Friends and Family",
+          "team": "Trailer Park Boys",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 422.1,
-          "def_rating": 423.8,
+          "off_rating": 425.1,
+          "def_rating": 427.9,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47740,
-      "home": "Jamaican Bobsled Team",
-      "visitor": "Multiple Scoregasms",
+      "match_id": 47742,
+      "home": "Flagaholics",
+      "visitor": "MTL Mavericks 2013 (B)",
       "team_audits": [
         {
-          "team": "Jamaican Bobsled Team",
-          "division": "Tier 5",
+          "team": "Flagaholics",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.9,
+          "def_rating": 351.9,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "MTL Mavericks 2013 (B)",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 278.9,
+          "def_rating": 283.3,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    },
+    {
+      "match_id": 47745,
+      "home": "Super Bock",
+      "visitor": "Still Underdogs",
+      "team_audits": [
+        {
+          "team": "Super Bock",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 370.5,
+          "off_rating": 370.0,
+          "def_rating": 404.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Still Underdogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 416.4,
+          "def_rating": 419.1,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47744,
+      "home": "The Hustlers",
+      "visitor": "Bleue Dry",
+      "team_audits": [
+        {
+          "team": "The Hustlers",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 402.4,
+          "def_rating": 388.6,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Bleue Dry",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 359.0,
+          "def_rating": 366.1,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    },
+    {
+      "match_id": 47746,
+      "home": "No Punt Intended",
+      "visitor": "The Penetrators",
+      "team_audits": [
+        {
+          "team": "No Punt Intended",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 457.7,
+          "def_rating": 451.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "The Penetrators",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 449.0,
+          "def_rating": 431.0,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47747,
+      "home": "Gridiron Elite",
+      "visitor": "Junkyard Dogs",
+      "team_audits": [
+        {
+          "team": "Gridiron Elite",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 362.7,
           "def_rating": 377.6,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team_cap": 410,
+          "qb_cap": 82
         },
         {
-          "team": "Multiple Scoregasms",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 318.1,
-          "def_rating": 302.3,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Junkyard Dogs",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 408.7,
+          "def_rating": 404.2,
+          "team_cap": 410,
+          "qb_cap": 82
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-10-27T14:11:24.844121-04:00"
+  "generated_at": "2026-10-28T14:27:31.737777-04:00"
 }

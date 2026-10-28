@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-27",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [
+    {
+      "match_id": 47743,
+      "team": "Trailer Park Boys",
+      "division": "Tier 4",
+      "type": "OFF",
+      "calculated": 425.1,
+      "cap": 425,
+      "over": 0.1
+    },
+    {
+      "match_id": 47743,
+      "team": "Trailer Park Boys",
+      "division": "Tier 4",
+      "type": "DEF",
+      "calculated": 427.9,
+      "cap": 425,
+      "over": 2.9
+    }
+  ],
+  "games": [
+    {
+      "match_id": 47743,
+      "home": "Tops\u2019n Tops",
+      "visitor": "Trailer Park Boys",
+      "team_audits": [
+        {
+          "team": "Tops\u2019n Tops",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 393.0,
+          "def_rating": 415.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Trailer Park Boys",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 425.1,
+          "def_rating": 427.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47742,
+      "home": "Flagaholics",
+      "visitor": "MTL Mavericks 2013 (B)",
+      "team_audits": [
+        {
+          "team": "Flagaholics",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.9,
+          "def_rating": 351.9,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "MTL Mavericks 2013 (B)",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 278.9,
+          "def_rating": 283.3,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    },
+    {
+      "match_id": 47745,
+      "home": "Super Bock",
+      "visitor": "Still Underdogs",
+      "team_audits": [
+        {
+          "team": "Super Bock",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 370.0,
+          "def_rating": 404.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Still Underdogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 416.4,
+          "def_rating": 419.1,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47744,
+      "home": "The Hustlers",
+      "visitor": "Bleue Dry",
+      "team_audits": [
+        {
+          "team": "The Hustlers",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 402.4,
+          "def_rating": 388.6,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Bleue Dry",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 359.0,
+          "def_rating": 366.1,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    },
+    {
+      "match_id": 47746,
+      "home": "No Punt Intended",
+      "visitor": "The Penetrators",
+      "team_audits": [
+        {
+          "team": "No Punt Intended",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 457.7,
+          "def_rating": 451.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "The Penetrators",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 449.0,
+          "def_rating": 431.0,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47747,
+      "home": "Gridiron Elite",
+      "visitor": "Junkyard Dogs",
+      "team_audits": [
+        {
+          "team": "Gridiron Elite",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 362.7,
+          "def_rating": 377.6,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Junkyard Dogs",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 408.7,
+          "def_rating": 404.2,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-10-28T14:27:31.737777-04:00"
+}
