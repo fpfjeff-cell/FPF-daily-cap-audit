@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-28",
+  "status": "incomplete",
+  "games_identified": 6,
+  "games_audited": 5,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47748,
+      "home": "Jagerbomb",
+      "visitor": "Richter BFO",
+      "team_audits": [
+        {
+          "team": "Jagerbomb",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 468.8,
+          "def_rating": 466.1,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Richter BFO",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 452.3,
+          "def_rating": 446.7,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47749,
+      "home": "Iron Reaper",
+      "visitor": "Texas Whales",
+      "team_audits": [
+        {
+          "team": "Iron Reaper",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 457.0,
+          "def_rating": 422.9,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Texas Whales",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 444.9,
+          "def_rating": 442.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47277,
+      "home": "Mixtologue",
+      "visitor": "The Merge",
+      "team_audits": [
+        {
+          "team": "Mixtologue",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 389.4,
+          "def_rating": 426.1,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "The Merge",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 477.1,
+          "def_rating": 471.2,
+          "team_cap": 490,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47751,
+      "home": "Illegal Aliens",
+      "visitor": "PHANTOM 450",
+      "team_audits": [
+        {
+          "team": "Illegal Aliens",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 387.5,
+          "def_rating": 410.3,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "PHANTOM 450",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 389.2,
+          "def_rating": 397.1,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47752,
+      "home": "Perfect",
+      "visitor": "B-Zangers",
+      "team_audits": [
+        {
+          "team": "Perfect",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 348.5,
+          "def_rating": 341.8,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "B-Zangers",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 376.3,
+          "def_rating": 377.2,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "match_id": 47750,
+      "home": "Les Touchables",
+      "visitor": "Flag Dealers",
+      "error": "No GP players matched Flag Dealers"
+    }
+  ],
+  "generated_at": "2026-10-29T14:37:09.619227-04:00"
+}
