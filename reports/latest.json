@@ -1,143 +1,161 @@
 {
-  "date": "2026-10-28",
-  "status": "incomplete",
+  "date": "2026-10-29",
+  "status": "complete",
   "games_identified": 6,
-  "games_audited": 5,
+  "games_audited": 6,
   "violations": [],
   "games": [
     {
-      "match_id": 47748,
-      "home": "Jagerbomb",
-      "visitor": "Richter BFO",
+      "match_id": 47755,
+      "home": "Richter BFO",
+      "visitor": "Studz Lite",
       "team_audits": [
-        {
-          "team": "Jagerbomb",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 468.8,
-          "def_rating": 466.1,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
         {
           "team": "Richter BFO",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 452.3,
-          "def_rating": 446.7,
+          "off_rating": 421.3,
+          "def_rating": 434.0,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Studz Lite",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 420.9,
+          "def_rating": 410.4,
           "team_cap": 470,
           "qb_cap": 80
         }
       ]
     },
     {
-      "match_id": 47749,
-      "home": "Iron Reaper",
-      "visitor": "Texas Whales",
+      "match_id": 47754,
+      "home": "Lego My Flag",
+      "visitor": "Mismatch",
       "team_audits": [
         {
-          "team": "Iron Reaper",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 457.0,
-          "def_rating": 422.9,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Texas Whales",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 444.9,
-          "def_rating": 442.4,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47277,
-      "home": "Mixtologue",
-      "visitor": "The Merge",
-      "team_audits": [
-        {
-          "team": "Mixtologue",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 389.4,
-          "def_rating": 426.1,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "The Merge",
+          "team": "Lego My Flag",
           "division": "Co-Ed 1",
           "format": "6v6",
-          "off_rating": 477.1,
-          "def_rating": 471.2,
+          "off_rating": 473.2,
+          "def_rating": 462.8,
+          "team_cap": 490,
+          "qb_cap": 100
+        },
+        {
+          "team": "Mismatch",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 452.1,
+          "def_rating": 438.5,
           "team_cap": 490,
           "qb_cap": 100
         }
       ]
     },
     {
-      "match_id": 47751,
-      "home": "Illegal Aliens",
-      "visitor": "PHANTOM 450",
+      "match_id": 47753,
+      "home": "No Punt Intended",
+      "visitor": "The Woo\u2019s",
       "team_audits": [
         {
-          "team": "Illegal Aliens",
+          "team": "No Punt Intended",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 334.8,
+          "def_rating": 330.0,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "The Woo\u2019s",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 368.8,
+          "def_rating": 369.3,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47758,
+      "home": "KGP",
+      "visitor": "Les Petites Carottes",
+      "team_audits": [
+        {
+          "team": "KGP",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 493.2,
+          "def_rating": 473.4,
+          "team_cap": 510,
+          "qb_cap": 90
+        },
+        {
+          "team": "Les Petites Carottes",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 506.7,
+          "def_rating": 483.6,
+          "team_cap": 510,
+          "qb_cap": 90
+        }
+      ]
+    },
+    {
+      "match_id": 47757,
+      "home": "Viscious & Delicious",
+      "visitor": "Super Bock",
+      "team_audits": [
+        {
+          "team": "Viscious & Delicious",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 387.5,
-          "def_rating": 410.3,
+          "off_rating": 408.0,
+          "def_rating": 401.8,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "PHANTOM 450",
+          "team": "Super Bock",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 389.2,
-          "def_rating": 397.1,
+          "off_rating": 369.3,
+          "def_rating": 403.5,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47752,
-      "home": "Perfect",
-      "visitor": "B-Zangers",
+      "match_id": 47756,
+      "home": "Bleue Dry",
+      "visitor": "Boof Squad",
       "team_audits": [
         {
-          "team": "Perfect",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 348.5,
-          "def_rating": 341.8,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Bleue Dry",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 359.5,
+          "def_rating": 362.4,
+          "team_cap": 410,
+          "qb_cap": 82
         },
         {
-          "team": "B-Zangers",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 376.3,
-          "def_rating": 377.2,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Boof Squad",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 374.4,
+          "def_rating": 403.8,
+          "team_cap": 410,
+          "qb_cap": 82
         }
       ]
     }
   ],
-  "unverified": [
-    {
-      "match_id": 47750,
-      "home": "Les Touchables",
-      "visitor": "Flag Dealers",
-      "error": "No GP players matched Flag Dealers"
-    }
-  ],
-  "generated_at": "2026-10-29T14:37:09.619227-04:00"
+  "unverified": [],
+  "generated_at": "2026-10-30T14:08:59.445174-04:00"
 }
