@@ -1,447 +1,272 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "status": "complete",
-  "games_identified": 17,
-  "games_audited": 17,
+  "games_identified": 10,
+  "games_audited": 10,
   "violations": [
     {
-      "match_id": 47279,
-      "team": "GVO",
-      "division": "Women's 2",
+      "match_id": 47793,
+      "team": "The Young & The Restless",
+      "division": "Co-Ed 4",
       "type": "QB",
-      "player": "Maude Lacasse",
-      "calculated": 82.8,
-      "cap": 70,
-      "over": 12.8
+      "player": "Kenny Boutilier",
+      "calculated": 69.7,
+      "cap": 65,
+      "over": 4.7
     }
   ],
   "games": [
     {
-      "match_id": 47770,
-      "home": "Hard 10",
-      "visitor": "Braves",
+      "match_id": 47786,
+      "home": "Shnito\u2019s and Benito\u2019s",
+      "visitor": "Les Touchables",
       "team_audits": [
         {
-          "team": "Hard 10",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 419.9,
-          "def_rating": 413.2,
-          "team_cap": 500,
-          "qb_cap": 100
+          "team": "Shnito\u2019s and Benito\u2019s",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 410.3,
+          "def_rating": 408.0,
+          "team_cap": 425,
+          "qb_cap": 72
         },
         {
-          "team": "Braves",
-          "division": "Competitive",
-          "format": "5v5",
-          "off_rating": 464.5,
-          "def_rating": 438.6,
-          "team_cap": 500,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47771,
-      "home": "Flagmaprix",
-      "visitor": "4th & Wine",
-      "team_audits": [
-        {
-          "team": "Flagmaprix",
-          "division": "Co-Ed 3",
-          "format": "6v6",
-          "off_rating": 396.2,
-          "def_rating": 413.0,
-          "team_cap": 430,
-          "qb_cap": 75
-        },
-        {
-          "team": "4th & Wine",
-          "division": "Co-Ed 3",
-          "format": "6v6",
-          "off_rating": 428.8,
-          "def_rating": 429.5,
-          "team_cap": 430,
-          "qb_cap": 75
-        }
-      ]
-    },
-    {
-      "match_id": 47772,
-      "home": "Chips and Dip",
-      "visitor": "Angels",
-      "team_audits": [
-        {
-          "team": "Chips and Dip",
-          "division": "Co-Ed 3",
-          "format": "6v6",
-          "off_rating": 402.1,
-          "def_rating": 406.6,
-          "team_cap": 430,
-          "qb_cap": 75
-        },
-        {
-          "team": "Angels",
-          "division": "Co-Ed 3",
+          "team": "Les Touchables",
+          "division": "Tier 4",
           "format": "6v6",
           "off_rating": 390.7,
-          "def_rating": 423.0,
-          "team_cap": 430,
-          "qb_cap": 75
-        }
-      ]
-    },
-    {
-      "match_id": 47774,
-      "home": "Mixed Signals",
-      "visitor": "Hard 6",
-      "team_audits": [
-        {
-          "team": "Mixed Signals",
-          "division": "Tier 1",
-          "format": "6v6",
-          "off_rating": 486.4,
-          "def_rating": 468.6,
-          "team_cap": 600,
-          "qb_cap": 100
-        },
-        {
-          "team": "Hard 6",
-          "division": "Tier 1",
-          "format": "6v6",
-          "off_rating": 494.9,
-          "def_rating": 483.4,
-          "team_cap": 600,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47773,
-      "home": "EZW",
-      "visitor": "Braves",
-      "team_audits": [
-        {
-          "team": "EZW",
-          "division": "Tier 1",
-          "format": "6v6",
-          "off_rating": 530.1,
-          "def_rating": 509.4,
-          "team_cap": 600,
-          "qb_cap": 100
-        },
-        {
-          "team": "Braves",
-          "division": "Tier 1",
-          "format": "6v6",
-          "off_rating": 554.8,
-          "def_rating": 522.0,
-          "team_cap": 600,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47775,
-      "home": "Purple Heat",
-      "visitor": "Brutes",
-      "team_audits": [
-        {
-          "team": "Purple Heat",
-          "division": "Women's 1",
-          "format": "5v5",
-          "off_rating": 359.7,
-          "def_rating": 369.9,
-          "team_cap": 500,
-          "qb_cap": 100
-        },
-        {
-          "team": "Brutes",
-          "division": "Women's 1",
-          "format": "5v5",
-          "off_rating": 377.9,
-          "def_rating": 368.4,
-          "team_cap": 500,
-          "qb_cap": 100
-        }
-      ]
-    },
-    {
-      "match_id": 47778,
-      "home": "TuneSquad",
-      "visitor": "Are You Not Entertained",
-      "team_audits": [
-        {
-          "team": "TuneSquad",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 409.4,
-          "def_rating": 420.3,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Are You Not Entertained",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 424.4,
-          "def_rating": 425.0,
+          "def_rating": 391.6,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47777,
-      "home": "Fitsquad",
-      "visitor": "No Pads, No Helmets, Just Ballz",
+      "match_id": 47787,
+      "home": "ONYX",
+      "visitor": "The Originals",
       "team_audits": [
         {
-          "team": "Fitsquad",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 446.4,
-          "def_rating": 440.0,
-          "team_cap": 460,
-          "qb_cap": 85
-        },
-        {
-          "team": "No Pads, No Helmets, Just Ballz",
-          "division": "Co-Ed 2",
-          "format": "6v6",
-          "off_rating": 440.6,
-          "def_rating": 456.3,
-          "team_cap": 460,
-          "qb_cap": 85
-        }
-      ]
-    },
-    {
-      "match_id": 47776,
-      "home": "Sacks Appeal",
-      "visitor": "Balls & Dolls",
-      "team_audits": [
-        {
-          "team": "Sacks Appeal",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 363.9,
-          "def_rating": 378.4,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Balls & Dolls",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 331.9,
-          "def_rating": 338.3,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47779,
-      "home": "Boof Squad",
-      "visitor": "Alessia's",
-      "team_audits": [
-        {
-          "team": "Boof Squad",
-          "division": "Intermediate",
-          "format": "5v5",
-          "off_rating": 400.1,
-          "def_rating": 406.2,
-          "team_cap": 410,
-          "qb_cap": 82
-        },
-        {
-          "team": "Alessia's",
-          "division": "Intermediate",
-          "format": "5v5",
-          "off_rating": 360.7,
-          "def_rating": 362.6,
-          "team_cap": 410,
-          "qb_cap": 82
-        }
-      ]
-    },
-    {
-      "match_id": 47780,
-      "home": "Airs",
-      "visitor": "Baby Sharks",
-      "team_audits": [
-        {
-          "team": "Airs",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 383.4,
-          "def_rating": 402.6,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Baby Sharks",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 395.4,
-          "def_rating": 403.0,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47782,
-      "home": "Trapstars",
-      "visitor": "Mofos",
-      "team_audits": [
-        {
-          "team": "Trapstars",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 456.5,
-          "def_rating": 441.6,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Mofos",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 441.9,
-          "def_rating": 438.1,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47781,
-      "home": "Aladeen FC",
-      "visitor": "Team Sexy",
-      "team_audits": [
-        {
-          "team": "Aladeen FC",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 364.2,
-          "def_rating": 367.9,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Team Sexy",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 419.2,
-          "def_rating": 400.6,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47279,
-      "home": "Chaos",
-      "visitor": "GVO",
-      "team_audits": [
-        {
-          "team": "Chaos",
-          "division": "Women's 1",
-          "format": "5v5",
-          "off_rating": 378.1,
-          "def_rating": 378.7,
-          "team_cap": 500,
-          "qb_cap": 100
-        },
-        {
-          "team": "GVO",
+          "team": "ONYX",
           "division": "Women's 2",
           "format": "5v5",
-          "off_rating": 362.7,
-          "def_rating": 336.2,
+          "off_rating": 280.0,
+          "def_rating": 280.0,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "The Originals",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.8,
+          "def_rating": 364.1,
           "team_cap": 370,
           "qb_cap": 70
         }
       ]
     },
     {
-      "match_id": 47783,
-      "home": "Les Petites Carottes",
-      "visitor": "Beer Belly Brigade",
+      "match_id": 47788,
+      "home": "Fins Up",
+      "visitor": "Mixed Signals",
       "team_audits": [
         {
-          "team": "Les Petites Carottes",
-          "division": "Tier 2",
+          "team": "Fins Up",
+          "division": "Tier 1",
           "format": "6v6",
-          "off_rating": 508.8,
-          "def_rating": 483.1,
-          "team_cap": 510,
-          "qb_cap": 90
+          "off_rating": 534.1,
+          "def_rating": 503.0,
+          "team_cap": 600,
+          "qb_cap": 100
         },
         {
-          "team": "Beer Belly Brigade",
-          "division": "Tier 2",
+          "team": "Mixed Signals",
+          "division": "Tier 1",
           "format": "6v6",
-          "off_rating": 470.9,
-          "def_rating": 462.3,
-          "team_cap": 510,
-          "qb_cap": 90
+          "off_rating": 470.3,
+          "def_rating": 461.5,
+          "team_cap": 600,
+          "qb_cap": 100
         }
       ]
     },
     {
-      "match_id": 47785,
-      "home": "Vengeance",
-      "visitor": "Voodoo",
+      "match_id": 47789,
+      "home": "Tops\u2019n Tops",
+      "visitor": "Super Troopers",
       "team_audits": [
         {
-          "team": "Vengeance",
+          "team": "Tops\u2019n Tops",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 365.9,
-          "def_rating": 389.6,
+          "off_rating": 387.6,
+          "def_rating": 415.0,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Voodoo",
+          "team": "Super Troopers",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 401.6,
-          "def_rating": 402.6,
+          "off_rating": 408.5,
+          "def_rating": 421.7,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47784,
-      "home": "Activated",
-      "visitor": "Air Buds",
+      "match_id": 47790,
+      "home": "Devious Dogs",
+      "visitor": "Brewers",
       "team_audits": [
         {
-          "team": "Activated",
+          "team": "Devious Dogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 349.2,
+          "def_rating": 395.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Brewers",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 408.3,
+          "def_rating": 398.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47791,
+      "home": "All Day Every Day",
+      "visitor": "Mixtologue",
+      "team_audits": [
+        {
+          "team": "All Day Every Day",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 443.2,
+          "def_rating": 453.9,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Mixtologue",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 373.2,
+          "def_rating": 413.8,
+          "team_cap": 460,
+          "qb_cap": 85
+        }
+      ]
+    },
+    {
+      "match_id": 47793,
+      "home": "The Young & The Restless",
+      "visitor": "Les Blue Balls",
+      "team_audits": [
+        {
+          "team": "The Young & The Restless",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 378.8,
+          "def_rating": 379.3,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Les Blue Balls",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 342.5,
+          "def_rating": 350.5,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47792,
+      "home": "The North",
+      "visitor": "Shark Attack",
+      "team_audits": [
+        {
+          "team": "The North",
           "division": "Co-Ed 5v5",
           "format": "5v5",
-          "off_rating": 375.0,
-          "def_rating": 376.9,
+          "off_rating": 382.3,
+          "def_rating": 373.8,
           "team_cap": 425,
           "qb_cap": 100
         },
         {
-          "team": "Air Buds",
+          "team": "Shark Attack",
           "division": "Co-Ed 5v5",
           "format": "5v5",
-          "off_rating": 405.8,
-          "def_rating": 389.2,
+          "off_rating": 378.1,
+          "def_rating": 378.0,
           "team_cap": 425,
           "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47794,
+      "home": "Viscious & Delicious",
+      "visitor": "Fitsquad",
+      "team_audits": [
+        {
+          "team": "Viscious & Delicious",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 403.0,
+          "def_rating": 385.5,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Fitsquad",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 439.8,
+          "def_rating": 435.4,
+          "team_cap": 460,
+          "qb_cap": 85
+        }
+      ]
+    },
+    {
+      "match_id": 47795,
+      "home": "Beauties and Beasts",
+      "visitor": "La caisse de 12 en rabais",
+      "team_audits": [
+        {
+          "team": "Beauties and Beasts",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 340.1,
+          "def_rating": 343.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "La caisse de 12 en rabais",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 337.8,
+          "def_rating": 360.8,
+          "team_cap": 380,
+          "qb_cap": 65
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-11-02T16:52:37.553283-05:00"
+  "generated_at": "2026-11-03T14:44:31.669897-05:00"
 }

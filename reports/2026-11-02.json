@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-02",
+  "status": "complete",
+  "games_identified": 10,
+  "games_audited": 10,
+  "violations": [
+    {
+      "match_id": 47793,
+      "team": "The Young & The Restless",
+      "division": "Co-Ed 4",
+      "type": "QB",
+      "player": "Kenny Boutilier",
+      "calculated": 69.7,
+      "cap": 65,
+      "over": 4.7
+    }
+  ],
+  "games": [
+    {
+      "match_id": 47786,
+      "home": "Shnito\u2019s and Benito\u2019s",
+      "visitor": "Les Touchables",
+      "team_audits": [
+        {
+          "team": "Shnito\u2019s and Benito\u2019s",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 410.3,
+          "def_rating": 408.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Les Touchables",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 390.7,
+          "def_rating": 391.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47787,
+      "home": "ONYX",
+      "visitor": "The Originals",
+      "team_audits": [
+        {
+          "team": "ONYX",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 280.0,
+          "def_rating": 280.0,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "The Originals",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.8,
+          "def_rating": 364.1,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    },
+    {
+      "match_id": 47788,
+      "home": "Fins Up",
+      "visitor": "Mixed Signals",
+      "team_audits": [
+        {
+          "team": "Fins Up",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 534.1,
+          "def_rating": 503.0,
+          "team_cap": 600,
+          "qb_cap": 100
+        },
+        {
+          "team": "Mixed Signals",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 470.3,
+          "def_rating": 461.5,
+          "team_cap": 600,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47789,
+      "home": "Tops\u2019n Tops",
+      "visitor": "Super Troopers",
+      "team_audits": [
+        {
+          "team": "Tops\u2019n Tops",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 387.6,
+          "def_rating": 415.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Super Troopers",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 408.5,
+          "def_rating": 421.7,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47790,
+      "home": "Devious Dogs",
+      "visitor": "Brewers",
+      "team_audits": [
+        {
+          "team": "Devious Dogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 349.2,
+          "def_rating": 395.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Brewers",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 408.3,
+          "def_rating": 398.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47791,
+      "home": "All Day Every Day",
+      "visitor": "Mixtologue",
+      "team_audits": [
+        {
+          "team": "All Day Every Day",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 443.2,
+          "def_rating": 453.9,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Mixtologue",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 373.2,
+          "def_rating": 413.8,
+          "team_cap": 460,
+          "qb_cap": 85
+        }
+      ]
+    },
+    {
+      "match_id": 47793,
+      "home": "The Young & The Restless",
+      "visitor": "Les Blue Balls",
+      "team_audits": [
+        {
+          "team": "The Young & The Restless",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 378.8,
+          "def_rating": 379.3,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Les Blue Balls",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 342.5,
+          "def_rating": 350.5,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47792,
+      "home": "The North",
+      "visitor": "Shark Attack",
+      "team_audits": [
+        {
+          "team": "The North",
+          "division": "Co-Ed 5v5",
+          "format": "5v5",
+          "off_rating": 382.3,
+          "def_rating": 373.8,
+          "team_cap": 425,
+          "qb_cap": 100
+        },
+        {
+          "team": "Shark Attack",
+          "division": "Co-Ed 5v5",
+          "format": "5v5",
+          "off_rating": 378.1,
+          "def_rating": 378.0,
+          "team_cap": 425,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47794,
+      "home": "Viscious & Delicious",
+      "visitor": "Fitsquad",
+      "team_audits": [
+        {
+          "team": "Viscious & Delicious",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 403.0,
+          "def_rating": 385.5,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Fitsquad",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 439.8,
+          "def_rating": 435.4,
+          "team_cap": 460,
+          "qb_cap": 85
+        }
+      ]
+    },
+    {
+      "match_id": 47795,
+      "home": "Beauties and Beasts",
+      "visitor": "La caisse de 12 en rabais",
+      "team_audits": [
+        {
+          "team": "Beauties and Beasts",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 340.1,
+          "def_rating": 343.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "La caisse de 12 en rabais",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 337.8,
+          "def_rating": 360.8,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-03T14:44:31.669897-05:00"
+}
