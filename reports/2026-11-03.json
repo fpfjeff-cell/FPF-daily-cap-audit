@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-03",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47797,
+      "home": "Vultures",
+      "visitor": "Hard 10",
+      "team_audits": [
+        {
+          "team": "Vultures",
+          "division": "Competitive",
+          "format": "5v5",
+          "off_rating": 440.4,
+          "def_rating": 426.4,
+          "team_cap": 500,
+          "qb_cap": 100
+        },
+        {
+          "team": "Hard 10",
+          "division": "Competitive",
+          "format": "5v5",
+          "off_rating": 425.8,
+          "def_rating": 414.5,
+          "team_cap": 500,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47796,
+      "home": "Alessia's",
+      "visitor": "Bleue Dry",
+      "team_audits": [
+        {
+          "team": "Alessia's",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 324.9,
+          "def_rating": 331.8,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Bleue Dry",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 378.9,
+          "def_rating": 377.5,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    },
+    {
+      "match_id": 47799,
+      "home": "Ranceurs",
+      "visitor": "Shockerz",
+      "team_audits": [
+        {
+          "team": "Ranceurs",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 431.0,
+          "def_rating": 424.5,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Shockerz",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 442.9,
+          "def_rating": 430.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47798,
+      "home": "Lego My Flag",
+      "visitor": "Tea Party",
+      "team_audits": [
+        {
+          "team": "Lego My Flag",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 489.7,
+          "def_rating": 469.9,
+          "team_cap": 490,
+          "qb_cap": 100
+        },
+        {
+          "team": "Tea Party",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 470.0,
+          "def_rating": 455.7,
+          "team_cap": 490,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47800,
+      "home": "Iron Reaper",
+      "visitor": "The Penetrators",
+      "team_audits": [
+        {
+          "team": "Iron Reaper",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 454.9,
+          "def_rating": 429.7,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "The Penetrators",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 456.9,
+          "def_rating": 444.7,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47801,
+      "home": "Flagaholics",
+      "visitor": "Wolfpack",
+      "team_audits": [
+        {
+          "team": "Flagaholics",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 351.4,
+          "def_rating": 368.3,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "Wolfpack",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 295.4,
+          "def_rating": 318.8,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-04T14:58:13.487610-05:00"
+}
