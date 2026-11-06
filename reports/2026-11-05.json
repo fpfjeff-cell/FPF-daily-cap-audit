@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-05",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47809,
+      "home": "Team Sexy",
+      "visitor": "Still Underdogs",
+      "team_audits": [
+        {
+          "team": "Team Sexy",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 394.9,
+          "def_rating": 381.3,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Still Underdogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 418.9,
+          "def_rating": 412.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47810,
+      "home": "TROUBLE IN PARADISE",
+      "visitor": "United Nations of Touchdowns",
+      "team_audits": [
+        {
+          "team": "TROUBLE IN PARADISE",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 403.6,
+          "def_rating": 429.5,
+          "team_cap": 430,
+          "qb_cap": 75
+        },
+        {
+          "team": "United Nations of Touchdowns",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 390.3,
+          "def_rating": 409.6,
+          "team_cap": 430,
+          "qb_cap": 75
+        }
+      ]
+    },
+    {
+      "match_id": 47808,
+      "home": "The Hustlers",
+      "visitor": "Gridiron Elite",
+      "team_audits": [
+        {
+          "team": "The Hustlers",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 408.6,
+          "def_rating": 393.9,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Gridiron Elite",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 373.0,
+          "def_rating": 378.7,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    },
+    {
+      "match_id": 47813,
+      "home": "Beer Belly Brigade",
+      "visitor": "Hard 8",
+      "team_audits": [
+        {
+          "team": "Beer Belly Brigade",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 471.8,
+          "def_rating": 466.2,
+          "team_cap": 510,
+          "qb_cap": 90
+        },
+        {
+          "team": "Hard 8",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 465.5,
+          "def_rating": 465.4,
+          "team_cap": 510,
+          "qb_cap": 90
+        }
+      ]
+    },
+    {
+      "match_id": 47811,
+      "home": "Uncle Rico's Ryders",
+      "visitor": "Bandits",
+      "team_audits": [
+        {
+          "team": "Uncle Rico's Ryders",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 457.9,
+          "def_rating": 450.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Bandits",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 438.9,
+          "def_rating": 437.5,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47812,
+      "home": "Tea Party",
+      "visitor": "The Merge",
+      "team_audits": [
+        {
+          "team": "Tea Party",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 470.0,
+          "def_rating": 455.7,
+          "team_cap": 490,
+          "qb_cap": 100
+        },
+        {
+          "team": "The Merge",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 472.9,
+          "def_rating": 463.8,
+          "team_cap": 490,
+          "qb_cap": 100
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-06T14:38:24.597248-05:00"
+}

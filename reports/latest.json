@@ -1,161 +1,161 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "status": "complete",
   "games_identified": 6,
   "games_audited": 6,
   "violations": [],
   "games": [
     {
-      "match_id": 47802,
-      "home": "Jagerbomb",
-      "visitor": "Uncle Rico's Ryders",
+      "match_id": 47809,
+      "home": "Team Sexy",
+      "visitor": "Still Underdogs",
       "team_audits": [
         {
-          "team": "Jagerbomb",
-          "division": "Tier 3",
+          "team": "Team Sexy",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 468.8,
-          "def_rating": 466.6,
-          "team_cap": 470,
-          "qb_cap": 80
+          "off_rating": 394.9,
+          "def_rating": 381.3,
+          "team_cap": 425,
+          "qb_cap": 72
         },
+        {
+          "team": "Still Underdogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 418.9,
+          "def_rating": 412.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47810,
+      "home": "TROUBLE IN PARADISE",
+      "visitor": "United Nations of Touchdowns",
+      "team_audits": [
+        {
+          "team": "TROUBLE IN PARADISE",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 403.6,
+          "def_rating": 429.5,
+          "team_cap": 430,
+          "qb_cap": 75
+        },
+        {
+          "team": "United Nations of Touchdowns",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 390.3,
+          "def_rating": 409.6,
+          "team_cap": 430,
+          "qb_cap": 75
+        }
+      ]
+    },
+    {
+      "match_id": 47808,
+      "home": "The Hustlers",
+      "visitor": "Gridiron Elite",
+      "team_audits": [
+        {
+          "team": "The Hustlers",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 408.6,
+          "def_rating": 393.9,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Gridiron Elite",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 373.0,
+          "def_rating": 378.7,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    },
+    {
+      "match_id": 47813,
+      "home": "Beer Belly Brigade",
+      "visitor": "Hard 8",
+      "team_audits": [
+        {
+          "team": "Beer Belly Brigade",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 471.8,
+          "def_rating": 466.2,
+          "team_cap": 510,
+          "qb_cap": 90
+        },
+        {
+          "team": "Hard 8",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 465.5,
+          "def_rating": 465.4,
+          "team_cap": 510,
+          "qb_cap": 90
+        }
+      ]
+    },
+    {
+      "match_id": 47811,
+      "home": "Uncle Rico's Ryders",
+      "visitor": "Bandits",
+      "team_audits": [
         {
           "team": "Uncle Rico's Ryders",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 451.2,
-          "def_rating": 441.3,
+          "off_rating": 457.9,
+          "def_rating": 450.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Bandits",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 438.9,
+          "def_rating": 437.5,
           "team_cap": 470,
           "qb_cap": 80
         }
       ]
     },
     {
-      "match_id": 47804,
-      "home": "Ouais Pas Mal",
-      "visitor": "Are You Not Entertained",
+      "match_id": 47812,
+      "home": "Tea Party",
+      "visitor": "The Merge",
       "team_audits": [
         {
-          "team": "Ouais Pas Mal",
-          "division": "Tier 4",
+          "team": "Tea Party",
+          "division": "Co-Ed 1",
           "format": "6v6",
-          "off_rating": 395.3,
-          "def_rating": 417.5,
-          "team_cap": 425,
-          "qb_cap": 72
+          "off_rating": 470.0,
+          "def_rating": 455.7,
+          "team_cap": 490,
+          "qb_cap": 100
         },
         {
-          "team": "Are You Not Entertained",
-          "division": "Tier 4",
+          "team": "The Merge",
+          "division": "Co-Ed 1",
           "format": "6v6",
-          "off_rating": 424.4,
-          "def_rating": 425.0,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47803,
-      "home": "Timing",
-      "visitor": "Zyn O\u2019Clock",
-      "team_audits": [
-        {
-          "team": "Timing",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 332.8,
-          "def_rating": 356.6,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Zyn O\u2019Clock",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 347.7,
-          "def_rating": 371.8,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47806,
-      "home": "Sans Pression",
-      "visitor": "Brewers",
-      "team_audits": [
-        {
-          "team": "Sans Pression",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 387.0,
-          "def_rating": 387.2,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Brewers",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 419.9,
-          "def_rating": 407.3,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47807,
-      "home": "No Porking Around",
-      "visitor": "Ball Hawks",
-      "team_audits": [
-        {
-          "team": "No Porking Around",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 385.0,
-          "def_rating": 415.6,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Ball Hawks",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 410.6,
-          "def_rating": 425.0,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47805,
-      "home": "Chapeau Perdu",
-      "visitor": "Perfect",
-      "team_audits": [
-        {
-          "team": "Chapeau Perdu",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 336.9,
-          "def_rating": 358.1,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Perfect",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 348.5,
-          "def_rating": 341.8,
-          "team_cap": 380,
-          "qb_cap": 65
+          "off_rating": 472.9,
+          "def_rating": 463.8,
+          "team_cap": 490,
+          "qb_cap": 100
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-11-05T15:13:05.406118-05:00"
+  "generated_at": "2026-11-06T14:38:24.597248-05:00"
 }
