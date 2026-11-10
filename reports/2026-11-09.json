@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-09",
+  "status": "complete",
+  "games_identified": 10,
+  "games_audited": 10,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47843,
+      "home": "Fins Up",
+      "visitor": "OneStop",
+      "team_audits": [
+        {
+          "team": "Fins Up",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 525.1,
+          "def_rating": 492.5,
+          "team_cap": 600,
+          "qb_cap": 100
+        },
+        {
+          "team": "OneStop",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 487.6,
+          "def_rating": 467.8,
+          "team_cap": 600,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47842,
+      "home": "Mixtologue",
+      "visitor": "Double Dip",
+      "team_audits": [
+        {
+          "team": "Mixtologue",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 392.6,
+          "def_rating": 424.8,
+          "team_cap": 460,
+          "qb_cap": 85
+        },
+        {
+          "team": "Double Dip",
+          "division": "Co-Ed 2",
+          "format": "6v6",
+          "off_rating": 430.7,
+          "def_rating": 435.9,
+          "team_cap": 460,
+          "qb_cap": 85
+        }
+      ]
+    },
+    {
+      "match_id": 47845,
+      "home": "Ranceurs",
+      "visitor": "Studz Lite",
+      "team_audits": [
+        {
+          "team": "Ranceurs",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 423.0,
+          "def_rating": 410.6,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Studz Lite",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 417.4,
+          "def_rating": 419.3,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47844,
+      "home": "La caisse de 12 en rabais",
+      "visitor": "The Young & The Restless",
+      "team_audits": [
+        {
+          "team": "La caisse de 12 en rabais",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 350.1,
+          "def_rating": 354.0,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "The Young & The Restless",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 371.1,
+          "def_rating": 379.3,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47846,
+      "home": "Win Diesel",
+      "visitor": "Bandits",
+      "team_audits": [
+        {
+          "team": "Win Diesel",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 469.2,
+          "def_rating": 469.6,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Bandits",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 445.2,
+          "def_rating": 436.6,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47847,
+      "home": "Shockerz",
+      "visitor": "Team Ethnik",
+      "team_audits": [
+        {
+          "team": "Shockerz",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 460.2,
+          "def_rating": 443.3,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Team Ethnik",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 426.0,
+          "def_rating": 424.9,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47849,
+      "home": "Voodoo",
+      "visitor": "Devious Dogs",
+      "team_audits": [
+        {
+          "team": "Voodoo",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 403.2,
+          "def_rating": 408.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Devious Dogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 345.9,
+          "def_rating": 387.4,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47848,
+      "home": "Sacks Appeal",
+      "visitor": "No Punt Intended",
+      "team_audits": [
+        {
+          "team": "Sacks Appeal",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 367.2,
+          "def_rating": 368.0,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "No Punt Intended",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 334.8,
+          "def_rating": 330.0,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47850,
+      "home": "Gators",
+      "visitor": "Aladeen FC",
+      "team_audits": [
+        {
+          "team": "Gators",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 423.9,
+          "def_rating": 424.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Aladeen FC",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 364.4,
+          "def_rating": 377.5,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47851,
+      "home": "ONYX",
+      "visitor": "Phoenix",
+      "team_audits": [
+        {
+          "team": "ONYX",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 280.0,
+          "def_rating": 280.0,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "Phoenix",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 302.0,
+          "def_rating": 317.2,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-10T14:56:29.444624-05:00"
+}
