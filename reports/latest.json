@@ -1,261 +1,161 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "status": "complete",
-  "games_identified": 10,
-  "games_audited": 10,
+  "games_identified": 6,
+  "games_audited": 6,
   "violations": [],
   "games": [
     {
-      "match_id": 47843,
-      "home": "Fins Up",
-      "visitor": "OneStop",
+      "match_id": 47852,
+      "home": "Friends and Family",
+      "visitor": "Super Bock",
       "team_audits": [
         {
-          "team": "Fins Up",
-          "division": "Tier 1",
+          "team": "Friends and Family",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 525.1,
-          "def_rating": 492.5,
-          "team_cap": 600,
-          "qb_cap": 100
+          "off_rating": 422.1,
+          "def_rating": 423.8,
+          "team_cap": 425,
+          "qb_cap": 72
         },
         {
-          "team": "OneStop",
-          "division": "Tier 1",
+          "team": "Super Bock",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 487.6,
-          "def_rating": 467.8,
-          "team_cap": 600,
-          "qb_cap": 100
+          "off_rating": 381.3,
+          "def_rating": 409.2,
+          "team_cap": 425,
+          "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47842,
-      "home": "Mixtologue",
-      "visitor": "Double Dip",
+      "match_id": 47853,
+      "home": "Viscious & Delicious",
+      "visitor": "Kamikaze",
       "team_audits": [
         {
-          "team": "Mixtologue",
+          "team": "Viscious & Delicious",
           "division": "Co-Ed 2",
           "format": "6v6",
-          "off_rating": 392.6,
-          "def_rating": 424.8,
+          "off_rating": 409.0,
+          "def_rating": 417.5,
           "team_cap": 460,
           "qb_cap": 85
         },
         {
-          "team": "Double Dip",
+          "team": "Kamikaze",
           "division": "Co-Ed 2",
           "format": "6v6",
-          "off_rating": 430.7,
-          "def_rating": 435.9,
+          "off_rating": 442.9,
+          "def_rating": 442.4,
           "team_cap": 460,
           "qb_cap": 85
         }
       ]
     },
     {
-      "match_id": 47845,
-      "home": "Ranceurs",
-      "visitor": "Studz Lite",
+      "match_id": 47855,
+      "home": "Trailer Park Boys",
+      "visitor": "TuneSquad",
       "team_audits": [
         {
-          "team": "Ranceurs",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 423.0,
-          "def_rating": 410.6,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Studz Lite",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 417.4,
-          "def_rating": 419.3,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47844,
-      "home": "La caisse de 12 en rabais",
-      "visitor": "The Young & The Restless",
-      "team_audits": [
-        {
-          "team": "La caisse de 12 en rabais",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 350.1,
-          "def_rating": 354.0,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "The Young & The Restless",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 371.1,
-          "def_rating": 379.3,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47846,
-      "home": "Win Diesel",
-      "visitor": "Bandits",
-      "team_audits": [
-        {
-          "team": "Win Diesel",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 469.2,
-          "def_rating": 469.6,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Bandits",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 445.2,
-          "def_rating": 436.6,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47847,
-      "home": "Shockerz",
-      "visitor": "Team Ethnik",
-      "team_audits": [
-        {
-          "team": "Shockerz",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 460.2,
-          "def_rating": 443.3,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "Team Ethnik",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 426.0,
-          "def_rating": 424.9,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47849,
-      "home": "Voodoo",
-      "visitor": "Devious Dogs",
-      "team_audits": [
-        {
-          "team": "Voodoo",
+          "team": "Trailer Park Boys",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 403.2,
-          "def_rating": 408.0,
+          "off_rating": 396.3,
+          "def_rating": 403.8,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Devious Dogs",
+          "team": "TuneSquad",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 345.9,
-          "def_rating": 387.4,
+          "off_rating": 404.8,
+          "def_rating": 410.5,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47848,
-      "home": "Sacks Appeal",
-      "visitor": "No Punt Intended",
+      "match_id": 47854,
+      "home": "The Originals",
+      "visitor": "Obsidian",
       "team_audits": [
         {
-          "team": "Sacks Appeal",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 367.2,
-          "def_rating": 368.0,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "No Punt Intended",
-          "division": "Co-Ed 4",
-          "format": "6v6",
-          "off_rating": 334.8,
-          "def_rating": 330.0,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47850,
-      "home": "Gators",
-      "visitor": "Aladeen FC",
-      "team_audits": [
-        {
-          "team": "Gators",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 423.9,
-          "def_rating": 424.9,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "Aladeen FC",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 364.4,
-          "def_rating": 377.5,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47851,
-      "home": "ONYX",
-      "visitor": "Phoenix",
-      "team_audits": [
-        {
-          "team": "ONYX",
+          "team": "The Originals",
           "division": "Women's 2",
           "format": "5v5",
-          "off_rating": 280.0,
-          "def_rating": 280.0,
+          "off_rating": 343.2,
+          "def_rating": 358.8,
           "team_cap": 370,
           "qb_cap": 70
         },
         {
-          "team": "Phoenix",
+          "team": "Obsidian",
           "division": "Women's 2",
           "format": "5v5",
-          "off_rating": 302.0,
-          "def_rating": 317.2,
+          "off_rating": 297.2,
+          "def_rating": 332.3,
           "team_cap": 370,
           "qb_cap": 70
+        }
+      ]
+    },
+    {
+      "match_id": 47856,
+      "home": "Multiple Scoregasms",
+      "visitor": "Chapeau Perdu",
+      "team_audits": [
+        {
+          "team": "Multiple Scoregasms",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 372.9,
+          "def_rating": 364.5,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Chapeau Perdu",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 335.7,
+          "def_rating": 343.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47857,
+      "home": "Junkyard Dogs",
+      "visitor": "Boof Squad",
+      "team_audits": [
+        {
+          "team": "Junkyard Dogs",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 408.7,
+          "def_rating": 404.2,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Boof Squad",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 397.3,
+          "def_rating": 409.5,
+          "team_cap": 410,
+          "qb_cap": 82
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-11-10T14:56:29.444624-05:00"
+  "generated_at": "2026-11-11T14:48:35.172272-05:00"
 }
