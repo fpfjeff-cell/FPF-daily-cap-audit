@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-11",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47858,
+      "home": "Richter BFO",
+      "visitor": "The Penetrators",
+      "team_audits": [
+        {
+          "team": "Richter BFO",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 444.3,
+          "def_rating": 440.8,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "The Penetrators",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 445.6,
+          "def_rating": 430.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47860,
+      "home": "Practice Squad IV",
+      "visitor": "Brewers",
+      "team_audits": [
+        {
+          "team": "Practice Squad IV",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 406.3,
+          "def_rating": 418.2,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Brewers",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 408.3,
+          "def_rating": 398.6,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47859,
+      "home": "QUEENS",
+      "visitor": "Chapeau Perdu",
+      "team_audits": [
+        {
+          "team": "QUEENS",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 356.3,
+          "def_rating": 374.9,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Chapeau Perdu",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 336.9,
+          "def_rating": 358.1,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47861,
+      "home": "PHANTOM 450",
+      "visitor": "Flag Dealers",
+      "team_audits": [
+        {
+          "team": "PHANTOM 450",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 404.9,
+          "def_rating": 407.1,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Flag Dealers",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 398.9,
+          "def_rating": 407.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47863,
+      "home": "Shnito\u2019s and Benito\u2019s",
+      "visitor": "Yakboyzz",
+      "team_audits": [
+        {
+          "team": "Shnito\u2019s and Benito\u2019s",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 397.6,
+          "def_rating": 399.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Yakboyzz",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 355.3,
+          "def_rating": 370.2,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47862,
+      "home": "Frenza's Bush",
+      "visitor": "B-Zangers",
+      "team_audits": [
+        {
+          "team": "Frenza's Bush",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 347.9,
+          "def_rating": 370.5,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "B-Zangers",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 376.7,
+          "def_rating": 377.2,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-12T15:19:15.447360-05:00"
+}
