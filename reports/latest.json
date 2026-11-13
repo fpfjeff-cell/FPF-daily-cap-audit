@@ -1,161 +1,161 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "status": "complete",
   "games_identified": 6,
   "games_audited": 6,
   "violations": [],
   "games": [
     {
-      "match_id": 47858,
-      "home": "Richter BFO",
-      "visitor": "The Penetrators",
+      "match_id": 47864,
+      "home": "Still an Inch Short",
+      "visitor": "Vengeance",
       "team_audits": [
         {
-          "team": "Richter BFO",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 444.3,
-          "def_rating": 440.8,
-          "team_cap": 470,
-          "qb_cap": 80
-        },
-        {
-          "team": "The Penetrators",
-          "division": "Tier 3",
-          "format": "6v6",
-          "off_rating": 445.6,
-          "def_rating": 430.4,
-          "team_cap": 470,
-          "qb_cap": 80
-        }
-      ]
-    },
-    {
-      "match_id": 47860,
-      "home": "Practice Squad IV",
-      "visitor": "Brewers",
-      "team_audits": [
-        {
-          "team": "Practice Squad IV",
+          "team": "Still an Inch Short",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 406.3,
-          "def_rating": 418.2,
+          "off_rating": 379.2,
+          "def_rating": 389.9,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Brewers",
+          "team": "Vengeance",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 408.3,
-          "def_rating": 398.6,
+          "off_rating": 364.0,
+          "def_rating": 383.2,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47859,
-      "home": "QUEENS",
-      "visitor": "Chapeau Perdu",
+      "match_id": 47865,
+      "home": "TuneSquad",
+      "visitor": "Super Troopers",
       "team_audits": [
         {
-          "team": "QUEENS",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 356.3,
-          "def_rating": 374.9,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Chapeau Perdu",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 336.9,
-          "def_rating": 358.1,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47861,
-      "home": "PHANTOM 450",
-      "visitor": "Flag Dealers",
-      "team_audits": [
-        {
-          "team": "PHANTOM 450",
+          "team": "TuneSquad",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 404.9,
-          "def_rating": 407.1,
+          "off_rating": 404.7,
+          "def_rating": 408.8,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Flag Dealers",
+          "team": "Super Troopers",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 398.9,
-          "def_rating": 407.8,
+          "off_rating": 420.5,
+          "def_rating": 423.2,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47863,
-      "home": "Shnito\u2019s and Benito\u2019s",
-      "visitor": "Yakboyzz",
+      "match_id": 47866,
+      "home": "Hard 10",
+      "visitor": "Vultures",
       "team_audits": [
         {
-          "team": "Shnito\u2019s and Benito\u2019s",
+          "team": "Hard 10",
+          "division": "Competitive",
+          "format": "5v5",
+          "off_rating": 424.1,
+          "def_rating": 411.7,
+          "team_cap": 500,
+          "qb_cap": 100
+        },
+        {
+          "team": "Vultures",
+          "division": "Competitive",
+          "format": "5v5",
+          "off_rating": 450.1,
+          "def_rating": 425.5,
+          "team_cap": 500,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47869,
+      "home": "Vultures",
+      "visitor": "Hard 6",
+      "team_audits": [
+        {
+          "team": "Vultures",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 507.7,
+          "def_rating": 502.4,
+          "team_cap": 600,
+          "qb_cap": 100
+        },
+        {
+          "team": "Hard 6",
+          "division": "Tier 1",
+          "format": "6v6",
+          "off_rating": 518.6,
+          "def_rating": 500.3,
+          "team_cap": 600,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47867,
+      "home": "Viscious & Delicious",
+      "visitor": "Baby Sharks",
+      "team_audits": [
+        {
+          "team": "Viscious & Delicious",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 397.6,
-          "def_rating": 399.9,
+          "off_rating": 408.0,
+          "def_rating": 401.8,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Yakboyzz",
+          "team": "Baby Sharks",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 355.3,
-          "def_rating": 370.2,
+          "off_rating": 376.6,
+          "def_rating": 394.4,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47862,
-      "home": "Frenza's Bush",
-      "visitor": "B-Zangers",
+      "match_id": 47868,
+      "home": "The Originals",
+      "visitor": "Flagaholics",
       "team_audits": [
         {
-          "team": "Frenza's Bush",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 347.9,
-          "def_rating": 370.5,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "The Originals",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 342.8,
+          "def_rating": 352.0,
+          "team_cap": 370,
+          "qb_cap": 70
         },
         {
-          "team": "B-Zangers",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 376.7,
-          "def_rating": 377.2,
-          "team_cap": 380,
-          "qb_cap": 65
+          "team": "Flagaholics",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 343.9,
+          "def_rating": 362.5,
+          "team_cap": 370,
+          "qb_cap": 70
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-11-12T15:19:15.447360-05:00"
+  "generated_at": "2026-11-13T14:57:39.363811-05:00"
 }
