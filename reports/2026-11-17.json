@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-17",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [],
+  "games": [
+    {
+      "match_id": 47908,
+      "home": "Hard 8",
+      "visitor": "KGP",
+      "team_audits": [
+        {
+          "team": "Hard 8",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 448.0,
+          "def_rating": 450.6,
+          "team_cap": 510,
+          "qb_cap": 90
+        },
+        {
+          "team": "KGP",
+          "division": "Tier 2",
+          "format": "6v6",
+          "off_rating": 495.0,
+          "def_rating": 483.1,
+          "team_cap": 510,
+          "qb_cap": 90
+        }
+      ]
+    },
+    {
+      "match_id": 47907,
+      "home": "4th & Wine",
+      "visitor": "United Nations of Touchdowns",
+      "team_audits": [
+        {
+          "team": "4th & Wine",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 417.7,
+          "def_rating": 416.7,
+          "team_cap": 430,
+          "qb_cap": 75
+        },
+        {
+          "team": "United Nations of Touchdowns",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 400.0,
+          "def_rating": 418.2,
+          "team_cap": 430,
+          "qb_cap": 75
+        }
+      ]
+    },
+    {
+      "match_id": 47909,
+      "home": "Shockerz",
+      "visitor": "Mofos",
+      "team_audits": [
+        {
+          "team": "Shockerz",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 458.2,
+          "def_rating": 440.6,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Mofos",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 447.8,
+          "def_rating": 447.2,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47910,
+      "home": "Viscious & Delicious",
+      "visitor": "Still an Inch Short",
+      "team_audits": [
+        {
+          "team": "Viscious & Delicious",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 406.5,
+          "def_rating": 401.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Still an Inch Short",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 396.8,
+          "def_rating": 409.7,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47912,
+      "home": "Still Underdogs",
+      "visitor": "Vengeance",
+      "team_audits": [
+        {
+          "team": "Still Underdogs",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 418.9,
+          "def_rating": 412.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Vengeance",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 384.9,
+          "def_rating": 404.5,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47911,
+      "home": "Bleue Dry",
+      "visitor": "Gridiron Elite",
+      "team_audits": [
+        {
+          "team": "Bleue Dry",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 398.0,
+          "def_rating": 386.4,
+          "team_cap": 410,
+          "qb_cap": 82
+        },
+        {
+          "team": "Gridiron Elite",
+          "division": "Intermediate",
+          "format": "5v5",
+          "off_rating": 373.0,
+          "def_rating": 378.7,
+          "team_cap": 410,
+          "qb_cap": 82
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-18T15:50:32.742434-05:00"
+}
