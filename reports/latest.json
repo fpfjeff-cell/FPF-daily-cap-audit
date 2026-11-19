@@ -1,161 +1,182 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "status": "complete",
   "games_identified": 6,
   "games_audited": 6,
-  "violations": [],
+  "violations": [
+    {
+      "match_id": 47913,
+      "team": "QUEENS",
+      "division": "Tier 5",
+      "type": "QB",
+      "player": "Micheal Remy",
+      "calculated": 75.9,
+      "cap": 65,
+      "over": 10.9
+    },
+    {
+      "match_id": 47916,
+      "team": "Gators",
+      "division": "Tier 4",
+      "type": "QB",
+      "player": "Micheal Remy",
+      "calculated": 75.9,
+      "cap": 72,
+      "over": 3.9
+    }
+  ],
   "games": [
     {
-      "match_id": 47908,
-      "home": "Hard 8",
-      "visitor": "KGP",
+      "match_id": 47914,
+      "home": "Molson Import",
+      "visitor": "TDiddy",
       "team_audits": [
         {
-          "team": "Hard 8",
-          "division": "Tier 2",
+          "team": "Molson Import",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 448.0,
-          "def_rating": 450.6,
-          "team_cap": 510,
-          "qb_cap": 90
+          "off_rating": 390.4,
+          "def_rating": 423.9,
+          "team_cap": 425,
+          "qb_cap": 72
         },
         {
-          "team": "KGP",
-          "division": "Tier 2",
+          "team": "TDiddy",
+          "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 495.0,
-          "def_rating": 483.1,
-          "team_cap": 510,
-          "qb_cap": 90
+          "off_rating": 370.0,
+          "def_rating": 366.5,
+          "team_cap": 425,
+          "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47907,
-      "home": "4th & Wine",
-      "visitor": "United Nations of Touchdowns",
+      "match_id": 47913,
+      "home": "QUEENS",
+      "visitor": "Perfect",
       "team_audits": [
         {
-          "team": "4th & Wine",
-          "division": "Co-Ed 3",
+          "team": "QUEENS",
+          "division": "Tier 5",
           "format": "6v6",
-          "off_rating": 417.7,
-          "def_rating": 416.7,
-          "team_cap": 430,
-          "qb_cap": 75
+          "off_rating": 368.7,
+          "def_rating": 374.9,
+          "team_cap": 380,
+          "qb_cap": 65
         },
         {
-          "team": "United Nations of Touchdowns",
-          "division": "Co-Ed 3",
+          "team": "Perfect",
+          "division": "Tier 5",
           "format": "6v6",
-          "off_rating": 400.0,
-          "def_rating": 418.2,
-          "team_cap": 430,
-          "qb_cap": 75
+          "off_rating": 362.6,
+          "def_rating": 365.8,
+          "team_cap": 380,
+          "qb_cap": 65
         }
       ]
     },
     {
-      "match_id": 47909,
-      "home": "Shockerz",
-      "visitor": "Mofos",
+      "match_id": 47915,
+      "home": "B-Zangers",
+      "visitor": "Jamaican Bobsled Team",
       "team_audits": [
         {
-          "team": "Shockerz",
+          "team": "B-Zangers",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 372.8,
+          "def_rating": 375.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Jamaican Bobsled Team",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 370.5,
+          "def_rating": 377.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47918,
+      "home": "The Penetrators",
+      "visitor": "Win Diesel",
+      "team_audits": [
+        {
+          "team": "The Penetrators",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 458.2,
-          "def_rating": 440.6,
+          "off_rating": 462.5,
+          "def_rating": 458.4,
           "team_cap": 470,
           "qb_cap": 80
         },
         {
-          "team": "Mofos",
+          "team": "Win Diesel",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 447.8,
-          "def_rating": 447.2,
+          "off_rating": 465.5,
+          "def_rating": 466.5,
           "team_cap": 470,
           "qb_cap": 80
         }
       ]
     },
     {
-      "match_id": 47910,
-      "home": "Viscious & Delicious",
-      "visitor": "Still an Inch Short",
+      "match_id": 47916,
+      "home": "Gators",
+      "visitor": "Ball Hawks",
       "team_audits": [
         {
-          "team": "Viscious & Delicious",
+          "team": "Gators",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 406.5,
-          "def_rating": 401.8,
+          "off_rating": 408.8,
+          "def_rating": 400.1,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Still an Inch Short",
+          "team": "Ball Hawks",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 396.8,
-          "def_rating": 409.7,
+          "off_rating": 412.0,
+          "def_rating": 425.0,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47912,
-      "home": "Still Underdogs",
-      "visitor": "Vengeance",
+      "match_id": 47917,
+      "home": "GVO",
+      "visitor": "Phoenix",
       "team_audits": [
         {
-          "team": "Still Underdogs",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 418.9,
-          "def_rating": 412.8,
-          "team_cap": 425,
-          "qb_cap": 72
+          "team": "GVO",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 327.8,
+          "def_rating": 345.1,
+          "team_cap": 370,
+          "qb_cap": 70
         },
         {
-          "team": "Vengeance",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 384.9,
-          "def_rating": 404.5,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47911,
-      "home": "Bleue Dry",
-      "visitor": "Gridiron Elite",
-      "team_audits": [
-        {
-          "team": "Bleue Dry",
-          "division": "Intermediate",
+          "team": "Phoenix",
+          "division": "Women's 2",
           "format": "5v5",
-          "off_rating": 398.0,
-          "def_rating": 386.4,
-          "team_cap": 410,
-          "qb_cap": 82
-        },
-        {
-          "team": "Gridiron Elite",
-          "division": "Intermediate",
-          "format": "5v5",
-          "off_rating": 373.0,
-          "def_rating": 378.7,
-          "team_cap": 410,
-          "qb_cap": 82
+          "off_rating": 312.5,
+          "def_rating": 317.0,
+          "team_cap": 370,
+          "qb_cap": 70
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-11-18T15:50:32.742434-05:00"
+  "generated_at": "2026-11-19T15:54:27.097902-05:00"
 }

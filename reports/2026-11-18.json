@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-18",
+  "status": "complete",
+  "games_identified": 6,
+  "games_audited": 6,
+  "violations": [
+    {
+      "match_id": 47913,
+      "team": "QUEENS",
+      "division": "Tier 5",
+      "type": "QB",
+      "player": "Micheal Remy",
+      "calculated": 75.9,
+      "cap": 65,
+      "over": 10.9
+    },
+    {
+      "match_id": 47916,
+      "team": "Gators",
+      "division": "Tier 4",
+      "type": "QB",
+      "player": "Micheal Remy",
+      "calculated": 75.9,
+      "cap": 72,
+      "over": 3.9
+    }
+  ],
+  "games": [
+    {
+      "match_id": 47914,
+      "home": "Molson Import",
+      "visitor": "TDiddy",
+      "team_audits": [
+        {
+          "team": "Molson Import",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 390.4,
+          "def_rating": 423.9,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "TDiddy",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 370.0,
+          "def_rating": 366.5,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47913,
+      "home": "QUEENS",
+      "visitor": "Perfect",
+      "team_audits": [
+        {
+          "team": "QUEENS",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 368.7,
+          "def_rating": 374.9,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Perfect",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 362.6,
+          "def_rating": 365.8,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47915,
+      "home": "B-Zangers",
+      "visitor": "Jamaican Bobsled Team",
+      "team_audits": [
+        {
+          "team": "B-Zangers",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 372.8,
+          "def_rating": 375.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Jamaican Bobsled Team",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 370.5,
+          "def_rating": 377.6,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47918,
+      "home": "The Penetrators",
+      "visitor": "Win Diesel",
+      "team_audits": [
+        {
+          "team": "The Penetrators",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 462.5,
+          "def_rating": 458.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Win Diesel",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 465.5,
+          "def_rating": 466.5,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47916,
+      "home": "Gators",
+      "visitor": "Ball Hawks",
+      "team_audits": [
+        {
+          "team": "Gators",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 408.8,
+          "def_rating": 400.1,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Ball Hawks",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 412.0,
+          "def_rating": 425.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47917,
+      "home": "GVO",
+      "visitor": "Phoenix",
+      "team_audits": [
+        {
+          "team": "GVO",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 327.8,
+          "def_rating": 345.1,
+          "team_cap": 370,
+          "qb_cap": 70
+        },
+        {
+          "team": "Phoenix",
+          "division": "Women's 2",
+          "format": "5v5",
+          "off_rating": 312.5,
+          "def_rating": 317.0,
+          "team_cap": 370,
+          "qb_cap": 70
+        }
+      ]
+    }
+  ],
+  "unverified": [],
+  "generated_at": "2026-11-19T15:54:27.097902-05:00"
+}
