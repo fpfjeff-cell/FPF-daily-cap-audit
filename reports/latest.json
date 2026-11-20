@@ -1,182 +1,161 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "status": "complete",
   "games_identified": 6,
   "games_audited": 6,
-  "violations": [
-    {
-      "match_id": 47913,
-      "team": "QUEENS",
-      "division": "Tier 5",
-      "type": "QB",
-      "player": "Micheal Remy",
-      "calculated": 75.9,
-      "cap": 65,
-      "over": 10.9
-    },
-    {
-      "match_id": 47916,
-      "team": "Gators",
-      "division": "Tier 4",
-      "type": "QB",
-      "player": "Micheal Remy",
-      "calculated": 75.9,
-      "cap": 72,
-      "over": 3.9
-    }
-  ],
+  "violations": [],
   "games": [
     {
-      "match_id": 47914,
-      "home": "Molson Import",
-      "visitor": "TDiddy",
+      "match_id": 47921,
+      "home": "Studz",
+      "visitor": "Studz Lite",
       "team_audits": [
         {
-          "team": "Molson Import",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 390.4,
-          "def_rating": 423.9,
-          "team_cap": 425,
-          "qb_cap": 72
-        },
-        {
-          "team": "TDiddy",
-          "division": "Tier 4",
-          "format": "6v6",
-          "off_rating": 370.0,
-          "def_rating": 366.5,
-          "team_cap": 425,
-          "qb_cap": 72
-        }
-      ]
-    },
-    {
-      "match_id": 47913,
-      "home": "QUEENS",
-      "visitor": "Perfect",
-      "team_audits": [
-        {
-          "team": "QUEENS",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 368.7,
-          "def_rating": 374.9,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Perfect",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 362.6,
-          "def_rating": 365.8,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47915,
-      "home": "B-Zangers",
-      "visitor": "Jamaican Bobsled Team",
-      "team_audits": [
-        {
-          "team": "B-Zangers",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 372.8,
-          "def_rating": 375.6,
-          "team_cap": 380,
-          "qb_cap": 65
-        },
-        {
-          "team": "Jamaican Bobsled Team",
-          "division": "Tier 5",
-          "format": "6v6",
-          "off_rating": 370.5,
-          "def_rating": 377.6,
-          "team_cap": 380,
-          "qb_cap": 65
-        }
-      ]
-    },
-    {
-      "match_id": 47918,
-      "home": "The Penetrators",
-      "visitor": "Win Diesel",
-      "team_audits": [
-        {
-          "team": "The Penetrators",
+          "team": "Studz",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 462.5,
-          "def_rating": 458.4,
+          "off_rating": 434.6,
+          "def_rating": 416.8,
           "team_cap": 470,
           "qb_cap": 80
         },
         {
-          "team": "Win Diesel",
+          "team": "Studz Lite",
           "division": "Tier 3",
           "format": "6v6",
-          "off_rating": 465.5,
-          "def_rating": 466.5,
+          "off_rating": 431.8,
+          "def_rating": 431.8,
           "team_cap": 470,
           "qb_cap": 80
         }
       ]
     },
     {
-      "match_id": 47916,
-      "home": "Gators",
-      "visitor": "Ball Hawks",
+      "match_id": 47919,
+      "home": "Super Troopers",
+      "visitor": "Voodoo",
       "team_audits": [
         {
-          "team": "Gators",
+          "team": "Super Troopers",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 408.8,
-          "def_rating": 400.1,
+          "off_rating": 406.4,
+          "def_rating": 419.3,
           "team_cap": 425,
           "qb_cap": 72
         },
         {
-          "team": "Ball Hawks",
+          "team": "Voodoo",
           "division": "Tier 4",
           "format": "6v6",
-          "off_rating": 412.0,
-          "def_rating": 425.0,
+          "off_rating": 386.5,
+          "def_rating": 391.3,
           "team_cap": 425,
           "qb_cap": 72
         }
       ]
     },
     {
-      "match_id": 47917,
-      "home": "GVO",
-      "visitor": "Phoenix",
+      "match_id": 47920,
+      "home": "TROUBLE IN PARADISE",
+      "visitor": "The Originals",
       "team_audits": [
         {
-          "team": "GVO",
+          "team": "TROUBLE IN PARADISE",
           "division": "Women's 2",
           "format": "5v5",
-          "off_rating": 327.8,
-          "def_rating": 345.1,
+          "off_rating": 307.5,
+          "def_rating": 326.9,
           "team_cap": 370,
           "qb_cap": 70
         },
         {
-          "team": "Phoenix",
+          "team": "The Originals",
           "division": "Women's 2",
           "format": "5v5",
-          "off_rating": 312.5,
-          "def_rating": 317.0,
+          "off_rating": 307.5,
+          "def_rating": 348.3,
           "team_cap": 370,
           "qb_cap": 70
+        }
+      ]
+    },
+    {
+      "match_id": 47922,
+      "home": "Viscious & Delicious",
+      "visitor": "Team Sexy",
+      "team_audits": [
+        {
+          "team": "Viscious & Delicious",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 406.5,
+          "def_rating": 401.8,
+          "team_cap": 425,
+          "qb_cap": 72
+        },
+        {
+          "team": "Team Sexy",
+          "division": "Tier 4",
+          "format": "6v6",
+          "off_rating": 414.4,
+          "def_rating": 403.0,
+          "team_cap": 425,
+          "qb_cap": 72
+        }
+      ]
+    },
+    {
+      "match_id": 47923,
+      "home": "Tea Party",
+      "visitor": "Lego My Flag",
+      "team_audits": [
+        {
+          "team": "Tea Party",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 469.0,
+          "def_rating": 455.7,
+          "team_cap": 490,
+          "qb_cap": 100
+        },
+        {
+          "team": "Lego My Flag",
+          "division": "Co-Ed 1",
+          "format": "6v6",
+          "off_rating": 451.8,
+          "def_rating": 464.3,
+          "team_cap": 490,
+          "qb_cap": 100
+        }
+      ]
+    },
+    {
+      "match_id": 47924,
+      "home": "United Nations of Touchdowns",
+      "visitor": "Chips and Dip",
+      "team_audits": [
+        {
+          "team": "United Nations of Touchdowns",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 378.1,
+          "def_rating": 382.8,
+          "team_cap": 430,
+          "qb_cap": 75
+        },
+        {
+          "team": "Chips and Dip",
+          "division": "Co-Ed 3",
+          "format": "6v6",
+          "off_rating": 385.5,
+          "def_rating": 382.7,
+          "team_cap": 430,
+          "qb_cap": 75
         }
       ]
     }
   ],
   "unverified": [],
-  "generated_at": "2026-11-19T15:54:27.097902-05:00"
+  "generated_at": "2026-11-20T15:39:33.347790-05:00"
 }
