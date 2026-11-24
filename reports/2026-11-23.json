@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-23",
+  "status": "incomplete",
+  "games_identified": 10,
+  "games_audited": 5,
+  "violations": [
+    {
+      "match_id": 47953,
+      "team": "Over/Under Achievers",
+      "division": "Tier 5",
+      "type": "DEF",
+      "calculated": 380.8,
+      "cap": 380,
+      "over": 0.8
+    }
+  ],
+  "games": [
+    {
+      "match_id": 47953,
+      "home": "Over/Under Achievers",
+      "visitor": "Chapeau Perdu",
+      "team_audits": [
+        {
+          "team": "Over/Under Achievers",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 359.9,
+          "def_rating": 380.8,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Chapeau Perdu",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 335.7,
+          "def_rating": 349.1,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47954,
+      "home": "No Punt Intended",
+      "visitor": "La caisse de 12 en rabais",
+      "team_audits": [
+        {
+          "team": "No Punt Intended",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 337.0,
+          "def_rating": 334.8,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "La caisse de 12 en rabais",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 336.3,
+          "def_rating": 355.3,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47955,
+      "home": "Purple Cobras",
+      "visitor": "Frenza's Bush",
+      "team_audits": [
+        {
+          "team": "Purple Cobras",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 365.2,
+          "def_rating": 378.4,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Frenza's Bush",
+          "division": "Tier 5",
+          "format": "6v6",
+          "off_rating": 343.0,
+          "def_rating": 361.2,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    },
+    {
+      "match_id": 47956,
+      "home": "Bend Don't Break",
+      "visitor": "Texas Whales",
+      "team_audits": [
+        {
+          "team": "Bend Don't Break",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 433.1,
+          "def_rating": 430.4,
+          "team_cap": 470,
+          "qb_cap": 80
+        },
+        {
+          "team": "Texas Whales",
+          "division": "Tier 3",
+          "format": "6v6",
+          "off_rating": 421.9,
+          "def_rating": 420.8,
+          "team_cap": 470,
+          "qb_cap": 80
+        }
+      ]
+    },
+    {
+      "match_id": 47957,
+      "home": "Les Blue Balls",
+      "visitor": "Beauties and Beasts",
+      "team_audits": [
+        {
+          "team": "Les Blue Balls",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 342.5,
+          "def_rating": 350.5,
+          "team_cap": 380,
+          "qb_cap": 65
+        },
+        {
+          "team": "Beauties and Beasts",
+          "division": "Co-Ed 4",
+          "format": "6v6",
+          "off_rating": 340.1,
+          "def_rating": 350.1,
+          "team_cap": 380,
+          "qb_cap": 65
+        }
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "match_id": 48016,
+      "home": "Les Touchables",
+      "visitor": "Shnito\u2019s and Benito\u2019s",
+      "error": "Unknown cap mapping for setup division 991"
+    },
+    {
+      "match_id": 48014,
+      "home": "Viscious & Delicious",
+      "visitor": "All Day Every Day",
+      "error": "Unknown cap mapping for setup division 998"
+    },
+    {
+      "match_id": 48017,
+      "home": "PHANTOM 450",
+      "visitor": "Still Underdogs",
+      "error": "Unknown cap mapping for setup division 991"
+    },
+    {
+      "match_id": 48015,
+      "home": "Viscious & Delicious",
+      "visitor": "Still an Inch Short",
+      "error": "Unknown cap mapping for setup division 991"
+    },
+    {
+      "match_id": 48018,
+      "home": "TuneSquad",
+      "visitor": "Molson Import",
+      "error": "Unknown cap mapping for setup division 991"
+    }
+  ],
+  "generated_at": "2026-11-24T17:41:47.464028-05:00"
+}
