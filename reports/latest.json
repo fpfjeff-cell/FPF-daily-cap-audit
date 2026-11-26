@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "status": "incomplete",
   "games_identified": 6,
   "games_audited": 0,
@@ -7,41 +7,41 @@
   "games": [],
   "unverified": [
     {
-      "match_id": 48054,
-      "home": "Team Sexy",
-      "visitor": "Brewers",
+      "match_id": 48063,
+      "home": "Killer Rays",
+      "visitor": "Iron Reaper",
+      "error": "Unknown cap mapping for setup division 990"
+    },
+    {
+      "match_id": 48061,
+      "home": "Are You Not Entertained",
+      "visitor": "Flag Dealers",
       "error": "Unknown cap mapping for setup division 991"
     },
     {
-      "match_id": 48056,
-      "home": "Ball Hawks",
-      "visitor": "PSTM",
+      "match_id": 48062,
+      "home": "Airs",
+      "visitor": "Still Underdogs",
       "error": "Unknown cap mapping for setup division 991"
     },
     {
-      "match_id": 48055,
-      "home": "Baby Sharks",
-      "visitor": "Super Troopers",
-      "error": "Unknown cap mapping for setup division 991"
+      "match_id": 48064,
+      "home": "Uncle Rico's Ryders",
+      "visitor": "Mofos",
+      "error": "Unknown cap mapping for setup division 990"
     },
     {
-      "match_id": 48058,
-      "home": "Friends and Family",
-      "visitor": "Shnito\u2019s and Benito\u2019s",
-      "error": "Unknown cap mapping for setup division 991"
+      "match_id": 48065,
+      "home": "Bend Don't Break",
+      "visitor": "NoFlagsGiven",
+      "error": "Unknown cap mapping for setup division 990"
     },
     {
-      "match_id": 48059,
-      "home": "Aladeen FC",
-      "visitor": "Molson Import",
-      "error": "Unknown cap mapping for setup division 991"
-    },
-    {
-      "match_id": 48060,
-      "home": "Tops\u2019n Tops",
-      "visitor": "Still an Inch Short",
-      "error": "Unknown cap mapping for setup division 991"
+      "match_id": 48066,
+      "home": "Shockerz",
+      "visitor": "No Punt Intended",
+      "error": "Unknown cap mapping for setup division 990"
     }
   ],
-  "generated_at": "2026-11-25T16:56:09.799690-05:00"
+  "generated_at": "2026-11-26T16:50:03.225916-05:00"
 }
