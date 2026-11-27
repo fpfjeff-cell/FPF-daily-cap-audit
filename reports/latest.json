@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "status": "incomplete",
   "games_identified": 6,
   "games_audited": 0,
@@ -7,41 +7,41 @@
   "games": [],
   "unverified": [
     {
-      "match_id": 48063,
-      "home": "Killer Rays",
-      "visitor": "Iron Reaper",
-      "error": "Unknown cap mapping for setup division 990"
+      "match_id": 48067,
+      "home": "Vicks Doghouse",
+      "visitor": "Timing",
+      "error": "Unknown cap mapping for setup division 992"
     },
     {
-      "match_id": 48061,
-      "home": "Are You Not Entertained",
-      "visitor": "Flag Dealers",
-      "error": "Unknown cap mapping for setup division 991"
+      "match_id": 48068,
+      "home": "Jamaican Bobsled Team",
+      "visitor": "Bloodline",
+      "error": "Unknown cap mapping for setup division 992"
     },
     {
-      "match_id": 48062,
-      "home": "Airs",
-      "visitor": "Still Underdogs",
-      "error": "Unknown cap mapping for setup division 991"
+      "match_id": 48069,
+      "home": "B-Zangers",
+      "visitor": "Purple Cobras",
+      "error": "Unknown cap mapping for setup division 992"
     },
     {
-      "match_id": 48064,
-      "home": "Uncle Rico's Ryders",
-      "visitor": "Mofos",
-      "error": "Unknown cap mapping for setup division 990"
+      "match_id": 48070,
+      "home": "Zyn O\u2019Clock",
+      "visitor": "Frenza's Bush",
+      "error": "Unknown cap mapping for setup division 992"
     },
     {
-      "match_id": 48065,
-      "home": "Bend Don't Break",
-      "visitor": "NoFlagsGiven",
-      "error": "Unknown cap mapping for setup division 990"
+      "match_id": 48071,
+      "home": "United Nations of Touchdowns",
+      "visitor": "4th & Wine",
+      "error": "Unknown cap mapping for setup division 999"
     },
     {
-      "match_id": 48066,
-      "home": "Shockerz",
-      "visitor": "No Punt Intended",
-      "error": "Unknown cap mapping for setup division 990"
+      "match_id": 48072,
+      "home": "Back That Pass Up",
+      "visitor": "TROUBLE IN PARADISE",
+      "error": "Unknown cap mapping for setup division 999"
     }
   ],
-  "generated_at": "2026-11-26T16:50:03.225916-05:00"
+  "generated_at": "2026-11-27T16:34:00.943829-05:00"
 }
